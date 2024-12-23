@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\projects\\.NET_visual_studio\\Console_C#\\Company\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\company\\company.dal\\contexts\\companydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|solutionrelative:company.dal\\contexts\\companydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\company\\company\\viewmodels\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\viewmodels\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\company\\company\\company.pl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\company.pl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -13,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\company\\company.dal\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|solutionrelative:company.dal\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\company\\company.dal\\contexts\\companydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|solutionrelative:company.dal\\contexts\\companydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\company\\company.bll\\reposatories\\memberreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,10 +51,6 @@
       "RelativeMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|solutionrelative:company.dal\\models\\leader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\company\\company\\viewmodels\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\viewmodels\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\company\\company\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -74,23 +74,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "MemberReposatory.cs",
-              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\Company\\Company.BLL\\Reposatories\\MemberReposatory.cs",
-              "RelativeDocumentMoniker": "Company.BLL\\Reposatories\\MemberReposatory.cs",
-              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\Company\\Company.BLL\\Reposatories\\MemberReposatory.cs",
-              "RelativeToolTip": "Company.BLL\\Reposatories\\MemberReposatory.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAwwDIAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T17:26:50.984Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Project.cs",
               "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\Company\\Company.DAL\\Models\\Project.cs",
               "RelativeDocumentMoniker": "Company.DAL\\Models\\Project.cs",
@@ -102,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "LeaderReposatory.cs",
               "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\Company\\Company.BLL\\Reposatories\\LeaderReposatory.cs",
               "RelativeDocumentMoniker": "Company.BLL\\Reposatories\\LeaderReposatory.cs",
@@ -114,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ILeaderReposatory.cs",
               "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\Company\\Company.BLL\\Interfaces\\ILeaderReposatory.cs",
               "RelativeDocumentMoniker": "Company.BLL\\Interfaces\\ILeaderReposatory.cs",
@@ -126,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "IMemberReposatory.cs",
               "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\Company\\Company.BLL\\Interfaces\\IMemberReposatory.cs",
               "RelativeDocumentMoniker": "Company.BLL\\Interfaces\\IMemberReposatory.cs",
@@ -138,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "IGenaricReposatory.cs",
               "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\Company\\Company.BLL\\Interfaces\\IGenaricReposatory.cs",
               "RelativeDocumentMoniker": "Company.BLL\\Interfaces\\IGenaricReposatory.cs",
@@ -150,19 +138,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "CompanyDBContext.cs",
               "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\Company\\Company.DAL\\Contexts\\CompanyDBContext.cs",
               "RelativeDocumentMoniker": "Company.DAL\\Contexts\\CompanyDBContext.cs",
               "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\Company\\Company.DAL\\Contexts\\CompanyDBContext.cs",
               "RelativeToolTip": "Company.DAL\\Contexts\\CompanyDBContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T17:19:18.786Z"
+              "WhenOpened": "2024-12-23T17:19:18.786Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Company.BLL.csproj",
               "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\Company\\Company.BLL\\Company.BLL.csproj",
               "RelativeDocumentMoniker": "Company.BLL\\Company.BLL.csproj",
@@ -170,12 +159,11 @@
               "RelativeToolTip": "Company.BLL\\Company.BLL.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-23T17:25:32.679Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T17:25:32.679Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Company.PL.csproj",
               "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\Company\\Company\\Company.PL.csproj",
               "RelativeDocumentMoniker": "Company\\Company.PL.csproj",
@@ -183,12 +171,35 @@
               "RelativeToolTip": "Company\\Company.PL.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-23T17:41:18.319Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T17:41:18.319Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\Company\\Company\\ViewModels\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Company\\ViewModels\\ErrorViewModel.cs",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\Company\\Company\\ViewModels\\ErrorViewModel.cs",
+              "RelativeToolTip": "Company\\ViewModels\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T20:17:33.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MemberReposatory.cs",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\Company\\Company.BLL\\Reposatories\\MemberReposatory.cs",
+              "RelativeDocumentMoniker": "Company.BLL\\Reposatories\\MemberReposatory.cs",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\Company\\Company.BLL\\Reposatories\\MemberReposatory.cs",
+              "RelativeToolTip": "Company.BLL\\Reposatories\\MemberReposatory.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T17:26:50.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "TaskMod.cs",
               "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\Company\\Company.DAL\\Models\\TaskMod.cs",
               "RelativeDocumentMoniker": "Company.DAL\\Models\\TaskMod.cs",
@@ -200,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Leader.cs",
               "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\Company\\Company.DAL\\Models\\Leader.cs",
               "RelativeDocumentMoniker": "Company.DAL\\Models\\Leader.cs",
@@ -209,18 +220,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-23T18:16:03.675Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\Company\\Company\\ViewModels\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Company\\ViewModels\\ErrorViewModel.cs",
-              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\Company\\Company\\ViewModels\\ErrorViewModel.cs",
-              "RelativeToolTip": "Company\\ViewModels\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T20:17:33.451Z"
             },
             {
               "$type": "Document",
@@ -268,8 +267,7 @@
               "RelativeToolTip": "Company.DAL\\Company.DAL.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-23T17:14:24.063Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T17:14:24.063Z"
             }
           ]
         }

@@ -1,0 +1,15 @@
+C:\projects\.NET_visual_studio\Console_C#\Company\Company.BLL\bin\Debug\net8.0\Company.BLL.deps.json
+C:\projects\.NET_visual_studio\Console_C#\Company\Company.BLL\bin\Debug\net8.0\Company.BLL.dll
+C:\projects\.NET_visual_studio\Console_C#\Company\Company.BLL\bin\Debug\net8.0\Company.BLL.pdb
+C:\projects\.NET_visual_studio\Console_C#\Company\Company.BLL\bin\Debug\net8.0\Company.DAL.dll
+C:\projects\.NET_visual_studio\Console_C#\Company\Company.BLL\bin\Debug\net8.0\Company.DAL.pdb
+C:\projects\.NET_visual_studio\Console_C#\Company\Company.BLL\obj\Debug\net8.0\Company.BLL.csproj.AssemblyReference.cache
+C:\projects\.NET_visual_studio\Console_C#\Company\Company.BLL\obj\Debug\net8.0\Company.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\.NET_visual_studio\Console_C#\Company\Company.BLL\obj\Debug\net8.0\Company.BLL.AssemblyInfoInputs.cache
+C:\projects\.NET_visual_studio\Console_C#\Company\Company.BLL\obj\Debug\net8.0\Company.BLL.AssemblyInfo.cs
+C:\projects\.NET_visual_studio\Console_C#\Company\Company.BLL\obj\Debug\net8.0\Company.BLL.csproj.CoreCompileInputs.cache
+C:\projects\.NET_visual_studio\Console_C#\Company\Company.BLL\obj\Debug\net8.0\Company..E6BDEF00.Up2Date
+C:\projects\.NET_visual_studio\Console_C#\Company\Company.BLL\obj\Debug\net8.0\Company.BLL.dll
+C:\projects\.NET_visual_studio\Console_C#\Company\Company.BLL\obj\Debug\net8.0\refint\Company.BLL.dll
+C:\projects\.NET_visual_studio\Console_C#\Company\Company.BLL\obj\Debug\net8.0\Company.BLL.pdb
+C:\projects\.NET_visual_studio\Console_C#\Company\Company.BLL\obj\Debug\net8.0\ref\Company.BLL.dll

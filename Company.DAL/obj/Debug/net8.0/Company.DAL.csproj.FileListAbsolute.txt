@@ -1,0 +1,14 @@
+C:\projects\.NET_visual_studio\Console_C#\Company\Company.DAL\bin\Debug\net8.0\Company.DAL.deps.json
+C:\projects\.NET_visual_studio\Console_C#\Company\Company.DAL\bin\Debug\net8.0\Company.DAL.dll
+C:\projects\.NET_visual_studio\Console_C#\Company\Company.DAL\bin\Debug\net8.0\Company.DAL.pdb
+C:\projects\.NET_visual_studio\Console_C#\Company\Company.DAL\obj\Debug\net8.0\Company.DAL.csproj.AssemblyReference.cache
+C:\projects\.NET_visual_studio\Console_C#\Company\Company.DAL\obj\Debug\net8.0\Company.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\.NET_visual_studio\Console_C#\Company\Company.DAL\obj\Debug\net8.0\Company.DAL.AssemblyInfoInputs.cache
+C:\projects\.NET_visual_studio\Console_C#\Company\Company.DAL\obj\Debug\net8.0\Company.DAL.AssemblyInfo.cs
+C:\projects\.NET_visual_studio\Console_C#\Company\Company.DAL\obj\Debug\net8.0\Company.DAL.csproj.CoreCompileInputs.cache
+C:\projects\.NET_visual_studio\Console_C#\Company\Company.DAL\obj\Debug\net8.0\Company.DAL.dll
+C:\projects\.NET_visual_studio\Console_C#\Company\Company.DAL\obj\Debug\net8.0\refint\Company.DAL.dll
+C:\projects\.NET_visual_studio\Console_C#\Company\Company.DAL\obj\Debug\net8.0\Company.DAL.pdb
+C:\projects\.NET_visual_studio\Console_C#\Company\Company.DAL\obj\Debug\net8.0\ref\Company.DAL.dll
+C:\projects\.NET_visual_studio\Console_C#\Company\Company.DAL\bin\Debug\net8.0\Company.DAL.runtimeconfig.json
+C:\projects\.NET_visual_studio\Console_C#\Company\Company.DAL\obj\Debug\net8.0\Company.DAL.genruntimeconfig.cache

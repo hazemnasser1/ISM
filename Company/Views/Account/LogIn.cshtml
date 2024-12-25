@@ -1,0 +1,42 @@
+﻿@using Company.PL.ViewModels
+@model LogInViewModel
+@{
+    ViewData["Title"] = "LogIn";
+}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="~/css/login.css">
+</head>
+<body>
+    <div>
+        <h1>Smart Login System</h1>
+        <form asp-action="LogIn">
+            <div>
+                <label for="mail">Email:</label>
+                <input id="mail" asp-for="Email" placeholder="Enter Your Email" required>
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input id="password" asp-for="Password" placeholder="Enter Password" required>
+            </div>
+            <input type="checkbox" asp-for="RememberMe" id="RemeberMe" value="false" />
+            <label>Remeber Me?</label>
+            <button type="submit">Submit</button>
+        </form>
+        <div>
+            <a asp-action="Register"> Register Now!</a>
+        </div>
+        @if (ViewData["Message"] != null)
+        {
+            <p style="color: red;">@ViewData["Message"]</p>
+        }
+    </div>
+    <script src="~/js/Login.js"></script>
+</body>
+</html>
+

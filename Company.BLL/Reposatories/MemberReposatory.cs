@@ -10,41 +10,16 @@ using Company.DAL.Models;
 
 namespace Company.BLL.Reposatories
 {
-    internal class MemberReposatory : IMemberReposatory,IGenaricReposatory<Member>
+    public class MemberReposatory :GenericRepository<Member>, IMemberReposatory
     {
-        private CompanyDBContext dBContext;
-        public MemberReposatory(CompanyDBContext dBContext) {
-            this.dBContext = dBContext;
-        }
-        public int Delete(Member member)
+        //private CompanyDBContext dBContext;
+        public MemberReposatory(CompanyDBContext dBContext) : base(dBContext) { }
+
+        public void MarkAsDone(TaskMod task)
         {
-            dBContext.members.Remove(member);
-            return dBContext.SaveChanges();
+            task.isDone = true;
+            //return dBContext.SaveChanges();
         }
-
-
-        public Member? Get(int id)
-        {
-            return dBContext.Find<Member>(id);
-        }
-
-        public IEnumerable<Member> GetAll()
-        {
-            return dBContext.members.ToList();
-        }
-
-        public int Insert(Member member)
-        {
-            dBContext.members.Add(member);
-            return dBContext.SaveChanges();
-        }
-
-        public int MarkAsDone(TaskMod task)
-        {
-            return dBContext.SaveChanges();
-        }
-
-
 
         public List<TaskMod>? Showtasks(Member member)
         {
@@ -56,12 +31,6 @@ namespace Company.BLL.Reposatories
             Project project = dBContext.Find<Project>(projectID);
 
             return project.members.ToList();
-        }
-
-        public int Update(Member member)
-        {
-            dBContext.members.Update(member);
-            return dBContext.SaveChanges();
         }
     }
 }

@@ -1,0 +1,97 @@
+﻿@using Company.PL.ViewModels
+@model RegisterViewModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="~/css/signUp.css">
+</head>
+<body>
+    <div>
+        <h1>Sign Up</h1>
+        <form asp-action="Register">
+            <div>
+                <label for="name">First Name:</label>
+                <input id="name" asp-for="FirstName" placeholder="Enter Your First Name" required>
+            </div>
+            <div>
+                <label for="name">Last Name:</label>
+                <input id="name" asp-for="LastName" placeholder="Enter Your Last Name" required>
+            </div>
+            <div>
+                <label for="mail">Email:</label>
+                <input asp-for="Email" id="mail" placeholder="Enter Your Email" required>
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input asp-for="Password" id="password" placeholder="Enter Password" required>
+            </div>
+            <div>
+                <label for="password">Confirm Password:</label>
+                <input asp-for="ConfirmedPassword" id="password" placeholder="Enter Password" required>
+            </div>
+            <div>
+                <label for="Age">Age:</label>
+                <input asp-for="Age" id="password" placeholder="Enter Password" required>
+            </div>
+            <div>
+                <label for="role">Role:</label>
+                <select asp-for="Role" id="role" name="role" required>
+                    <option value="" disabled selected>-- Select Role --</option>
+                    <option value="Member">Member</option>
+                    <option value="Leader">Leader</option>
+                </select>
+            </div>
+            <div id="additionalFields"></div>
+
+
+
+            <button type="submit">Sign Up</button>
+        </form>
+
+        @if (ViewData["Message"] != null)
+        {
+            <p style="color: red;">@ViewData["Message"]</p>
+        }
+    </div>
+    <script>
+
+        const roleSelect = document.getElementById('role');
+        const additionalFields = document.getElementById('additionalFields');
+
+        roleSelect.addEventListener('change', function () {
+            if (this.value === 'Leader') {
+                if (!document.getElementById('projectId')) {
+                    const projectDiv = document.createElement('div');
+
+                    const label = document.createElement('label');
+                    label.setAttribute('for', 'projectId');
+                    label.textContent = 'Project ID:';
+
+                    const input = document.createElement('input');
+                    input.setAttribute('type', 'text');
+                    input.setAttribute('id', 'projectId');
+                    input.setAttribute('name', 'ProjectID');
+                    input.setAttribute('placeholder', 'Enter Project ID');
+                    input.setAttribute('required', 'true');
+
+                    projectDiv.appendChild(label);
+                    projectDiv.appendChild(input);
+
+                    additionalFields.appendChild(projectDiv);
+                }
+            } else {
+                const projectIdField = document.getElementById('projectId');
+                if (projectIdField) {
+                    projectIdField.parentElement.remove();
+                }
+            }
+        });
+    </script>
+</body>
+</html>
+

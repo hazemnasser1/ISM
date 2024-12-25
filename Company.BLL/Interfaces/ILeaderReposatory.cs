@@ -7,11 +7,11 @@ using Company.DAL.Models;
 
 namespace Company.BLL.Interfaces
 {
-    internal interface ILeaderReposatory
+    public interface ILeaderReposatory
     {
         List<Member>? showteam(int projectID);
-        int AddTask(TaskMod task);
-        int UpdateTask(TaskMod task);
-        int addTeamMember(Member member,Leader leader);
+        void AddTask(TaskMod task);
+        void UpdateTask(TaskMod task);
+        void addTeamMember(Member member,Leader leader);
     }
 }

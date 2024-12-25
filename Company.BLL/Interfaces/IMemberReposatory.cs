@@ -7,9 +7,9 @@ using Company.DAL.Models;
 
 namespace Company.BLL.Interfaces
 {
-    internal interface IMemberReposatory
+    public interface IMemberReposatory
     {
-        int MarkAsDone(TaskMod task);
+        void MarkAsDone(TaskMod task);
         List<TaskMod>? Showtasks(Member member);
         List<Member>? showteam(int projectID);
         

@@ -7,18 +7,16 @@ using System.Threading.Tasks;
 
 namespace Company.DAL.Models
 {
-    public class Leader
+    public class Leader:BaseEntity
     {
-        public int Id { get; set; }
+        //public int Id { get; set; }
         [Required(ErrorMessage = "Name is required")]
         [MaxLength(50)]
         public string? Name { get; set; }
-        [Required(ErrorMessage = "Password is required")]
-        [MaxLength(15)]
-        public string? Password { get; set; }
         [Required]
         public string? Email { get; set; }
         
         public Project? Project { get; set;}
+        public int ProjectId { get; set; }
     }
 }

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Company.DAL.Models
 {
-    public class TaskMod
+    public class TaskMod:BaseEntity
     {
-        public int Id { get; set; }
+        //public int Id { get; set; }
         public string? Name { get; set; }
         public string? Description { get; set; }
         public bool? isDone { get; set; }

@@ -7,13 +7,12 @@ using System.Threading.Tasks;
 namespace Company.BLL.Interfaces
 {
 
-    internal interface IGenaricReposatory<T>
+    public interface IGenaricReposatory<T>
     {
         IEnumerable<T> GetAll();
         T Get(int id);
-
-        int Insert(T member);
-        int Update(T member);
-        int Delete(T member);
+        void Insert(T member);
+        void Update(T member);
+        void Delete(T member);
     }
 }

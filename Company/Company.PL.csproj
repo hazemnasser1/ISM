@@ -7,6 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\NewFolder1\**" />
+    <Compile Remove="Views\NewFolder\**" />
+    <Content Remove="Views\NewFolder1\**" />
+    <Content Remove="Views\NewFolder\**" />
+    <EmbeddedResource Remove="Views\NewFolder1\**" />
+    <EmbeddedResource Remove="Views\NewFolder\**" />
+    <None Remove="Views\NewFolder1\**" />
+    <None Remove="Views\NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AutoMapper.AspNetCore.OData.EFCore" Version="6.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.11">
       <PrivateAssets>all</PrivateAssets>
@@ -17,6 +28,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Company.BLL\Company.BLL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\NewFolder2\" />
   </ItemGroup>
 
 </Project>

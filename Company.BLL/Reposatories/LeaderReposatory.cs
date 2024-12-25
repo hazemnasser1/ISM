@@ -34,6 +34,11 @@ namespace Company.BLL.Reposatories
             //return dBContext.SaveChanges();
         }
 
+        public Leader GetByEmail(string email)
+        {
+            return dBContext.leaders.Where(m => m.Email == email).FirstOrDefault();
+        }
+
         public List<Member>? showteam(int projectID)
         {
             Project project= dBContext.Find<Project>(projectID);

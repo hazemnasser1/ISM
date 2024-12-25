@@ -1,94 +1,181 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\",
+  "WorkspaceRootPath": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\collage\\4th_year\\first_semester\\ism\\ism\\company\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company\\controllers\\leadercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\controllers\\leadercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\collage\\4th_year\\first_semester\\ism\\ism\\company\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company.bll\\reposatories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\reposatories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\collage\\4th_year\\first_semester\\ism\\ism\\company\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|d:\\collage\\4th_year\\first_semester\\ism\\ism\\company.bll\\configurations\\projectconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\configurations\\projectconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|d:\\collage\\4th_year\\first_semester\\ism\\ism\\company.dal\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|solutionrelative:company.dal\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|d:\\collage\\4th_year\\first_semester\\ism\\ism\\company.dal\\models\\leader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|solutionrelative:company.dal\\models\\leader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|d:\\collage\\4th_year\\first_semester\\ism\\ism\\company.dal\\contexts\\companydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|solutionrelative:company.dal\\contexts\\companydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\collage\\4th_year\\first_semester\\ism\\ism\\company\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\collage\\4th_year\\first_semester\\ism\\ism\\company\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|d:\\collage\\4th_year\\first_semester\\ism\\ism\\company.dal\\models\\taskmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|solutionrelative:company.dal\\models\\taskmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|d:\\collage\\4th_year\\first_semester\\ism\\ism\\company.dal\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|solutionrelative:company.dal\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.DAL\\Migrations\\20241225113029_AddSecurityModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Company.DAL\\Migrations\\20241225113029_AddSecurityModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|d:\\collage\\4th_year\\first_semester\\ism\\ism\\company.bll\\reposatories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\reposatories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|d:\\collage\\4th_year\\first_semester\\ism\\ism\\company.bll\\reposatories\\leaderreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\reposatories\\leaderreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|d:\\collage\\4th_year\\first_semester\\ism\\ism\\company.bll\\reposatories\\memberreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\reposatories\\memberreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|d:\\collage\\4th_year\\first_semester\\ism\\ism\\company.bll\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|d:\\collage\\4th_year\\first_semester\\ism\\ism\\company.bll\\reposatories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company.bll\\reposatories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\reposatories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\collage\\4th_year\\first_semester\\ism\\ism\\company\\viewmodels\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company\\views\\leader\\showtasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\views\\leader\\showtasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company.dal\\contexts\\companydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|solutionrelative:company.dal\\contexts\\companydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company.dal\\models\\taskmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|solutionrelative:company.dal\\models\\taskmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company.bll\\reposatories\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\reposatories\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company.bll\\reposatories\\memberreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\reposatories\\memberreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company.dal\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|solutionrelative:company.dal\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company.bll\\reposatories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\reposatories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company\\viewmodels\\taskviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\viewmodels\\taskviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company\\viewmodels\\tasksviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\viewmodels\\tasksviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company.dal\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|solutionrelative:company.dal\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company.bll\\interfaces\\ileaderreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\interfaces\\ileaderreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company.dal\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|solutionrelative:company.dal\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company.dal\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|solutionrelative:company.dal\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company.dal\\models\\leader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|solutionrelative:company.dal\\models\\leader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company\\helper\\mappsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\helper\\mappsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company.bll\\reposatories\\leaderreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\reposatories\\leaderreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company.bll\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company.bll\\interfaces\\igenaricreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\interfaces\\igenaricreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Migrations\\20241225155552_add missing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Company.DAL\\Migrations\\20241225155552_add missing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Migrations\\20241225160355_add missing2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Company.DAL\\Migrations\\20241225160355_add missing2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company.dal\\migrations\\20241225113456_addsecuritymodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|solutionrelative:company.dal\\migrations\\20241225113456_addsecuritymodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company.dal\\migrations\\20241225155913_add missing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|solutionrelative:company.dal\\migrations\\20241225155913_add missing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company.dal\\migrations\\20241225145918_addprojectidcolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|solutionrelative:company.dal\\migrations\\20241225145918_addprojectidcolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Migrations\\20241225155719_add missing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Company.DAL\\Migrations\\20241225155719_add missing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company.bll\\configurations\\projectconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\configurations\\projectconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.DAL\\Migrations\\20241225113029_AddSecurityModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company\\viewmodels\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\viewmodels\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|d:\\collage\\4th_year\\first_semester\\ism\\ism\\company.bll\\company.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company.bll\\company.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\company.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\collage\\4th_year\\first_semester\\ism\\ism\\company\\company.pl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company\\company.pl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\company.pl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\collage\\4th_year\\first_semester\\ism\\ism\\company\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|d:\\collage\\4th_year\\first_semester\\ism\\ism\\company.dal\\company.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company.dal\\company.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|solutionrelative:company.dal\\company.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company.dal\\migrations\\20241225192928_taskchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|solutionrelative:company.dal\\migrations\\20241225192928_taskchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,313 +185,533 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.BLL\\Reposatories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Company.BLL\\Reposatories\\UnitOfWork.cs",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.BLL\\Reposatories\\UnitOfWork.cs",
+              "RelativeToolTip": "Company.BLL\\Reposatories\\UnitOfWork.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T10:21:40.572Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskRepository.cs",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.BLL\\Reposatories\\TaskRepository.cs",
+              "RelativeDocumentMoniker": "Company.BLL\\Reposatories\\TaskRepository.cs",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.BLL\\Reposatories\\TaskRepository.cs",
+              "RelativeToolTip": "Company.BLL\\Reposatories\\TaskRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T10:30:21.447Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "projectRepository.cs",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.BLL\\Reposatories\\projectRepository.cs",
+              "RelativeDocumentMoniker": "Company.BLL\\Reposatories\\projectRepository.cs",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.BLL\\Reposatories\\projectRepository.cs",
+              "RelativeToolTip": "Company.BLL\\Reposatories\\projectRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAB8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T16:31:47.891Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.BLL\\Reposatories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Company.BLL\\Reposatories\\GenericRepository.cs",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.BLL\\Reposatories\\GenericRepository.cs",
+              "RelativeToolTip": "Company.BLL\\Reposatories\\GenericRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T16:38:17.575Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Models\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Company.DAL\\Models\\BaseEntity.cs",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Models\\BaseEntity.cs",
+              "RelativeToolTip": "Company.DAL\\Models\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T20:32:48.903Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Project.cs",
-              "DocumentMoniker": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.DAL\\Models\\Project.cs",
-              "RelativeDocumentMoniker": "Company.DAL\\Models\\Project.cs",
-              "ToolTip": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.DAL\\Models\\Project.cs",
-              "RelativeToolTip": "Company.DAL\\Models\\Project.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAAKAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\Program.cs",
+              "RelativeDocumentMoniker": "Company\\Program.cs",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\Program.cs",
+              "RelativeToolTip": "Company\\Program.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAgwE0AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T14:57:40.621Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T12:19:00.166Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Leader.cs",
-              "DocumentMoniker": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.DAL\\Models\\Leader.cs",
-              "RelativeDocumentMoniker": "Company.DAL\\Models\\Leader.cs",
-              "ToolTip": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.DAL\\Models\\Leader.cs",
-              "RelativeToolTip": "Company.DAL\\Models\\Leader.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAAcAAAA",
+              "DocumentIndex": 0,
+              "Title": "LeaderController.cs",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\Controllers\\LeaderController.cs",
+              "RelativeDocumentMoniker": "Company\\Controllers\\LeaderController.cs",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\Controllers\\LeaderController.cs",
+              "RelativeToolTip": "Company\\Controllers\\LeaderController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowD4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T14:56:36.988Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CompanyDBContext.cs",
-              "DocumentMoniker": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.DAL\\Contexts\\CompanyDBContext.cs",
-              "RelativeDocumentMoniker": "Company.DAL\\Contexts\\CompanyDBContext.cs",
-              "ToolTip": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.DAL\\Contexts\\CompanyDBContext.cs",
-              "RelativeToolTip": "Company.DAL\\Contexts\\CompanyDBContext.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBIAAABnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T14:48:27.522Z",
+              "WhenOpened": "2024-12-25T16:47:20.318Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ProjectConfigurations.cs",
-              "DocumentMoniker": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.BLL\\Configurations\\ProjectConfigurations.cs",
-              "RelativeDocumentMoniker": "Company.BLL\\Configurations\\ProjectConfigurations.cs",
-              "ToolTip": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.BLL\\Configurations\\ProjectConfigurations.cs",
-              "RelativeToolTip": "Company.BLL\\Configurations\\ProjectConfigurations.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T14:45:08.031Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LogInViewModel.cs",
-              "DocumentMoniker": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company\\ViewModels\\LogInViewModel.cs",
-              "RelativeDocumentMoniker": "Company\\ViewModels\\LogInViewModel.cs",
-              "ToolTip": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company\\ViewModels\\LogInViewModel.cs",
-              "RelativeToolTip": "Company\\ViewModels\\LogInViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T14:04:01.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "Company\\Views\\Account\\Register.cshtml",
-              "ToolTip": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "Company\\Views\\Account\\Register.cshtml",
-              "ViewState": "AQIAAD0AAAAAAAAAAADwv0IAAAAqAAAA",
+              "Title": "ShowTasks.cshtml",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\Views\\Leader\\ShowTasks.cshtml",
+              "RelativeDocumentMoniker": "Company\\Views\\Leader\\ShowTasks.cshtml",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\Views\\Leader\\ShowTasks.cshtml",
+              "RelativeToolTip": "Company\\Views\\Leader\\ShowTasks.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACoAAABlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-25T14:02:21.227Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T17:19:09.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CompanyDBContext.cs",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Contexts\\CompanyDBContext.cs",
+              "RelativeDocumentMoniker": "Company.DAL\\Contexts\\CompanyDBContext.cs",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Contexts\\CompanyDBContext.cs",
+              "RelativeToolTip": "Company.DAL\\Contexts\\CompanyDBContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T14:48:27.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TaskMod.cs",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Models\\TaskMod.cs",
+              "RelativeDocumentMoniker": "Company.DAL\\Models\\TaskMod.cs",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Models\\TaskMod.cs",
+              "RelativeToolTip": "Company.DAL\\Models\\TaskMod.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T11:34:38.574Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "LogIn.cshtml",
-              "DocumentMoniker": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company\\Views\\Account\\LogIn.cshtml",
-              "RelativeDocumentMoniker": "Company\\Views\\Account\\LogIn.cshtml",
-              "ToolTip": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company\\Views\\Account\\LogIn.cshtml",
-              "RelativeToolTip": "Company\\Views\\Account\\LogIn.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAADwvxoAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-25T13:55:59.249Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company\\Program.cs",
-              "RelativeDocumentMoniker": "Company\\Program.cs",
-              "ToolTip": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company\\Program.cs",
-              "RelativeToolTip": "Company\\Program.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAQwDkAAAANAAAA",
+              "Title": "MemberReposatory.cs",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.BLL\\Reposatories\\MemberReposatory.cs",
+              "RelativeDocumentMoniker": "Company.BLL\\Reposatories\\MemberReposatory.cs",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.BLL\\Reposatories\\MemberReposatory.cs",
+              "RelativeToolTip": "Company.BLL\\Reposatories\\MemberReposatory.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T12:19:00.166Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Company\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Company\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAADwv0EAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T11:45:40.839Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TaskMod.cs",
-              "DocumentMoniker": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.DAL\\Models\\TaskMod.cs",
-              "RelativeDocumentMoniker": "Company.DAL\\Models\\TaskMod.cs",
-              "ToolTip": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.DAL\\Models\\TaskMod.cs",
-              "RelativeToolTip": "Company.DAL\\Models\\TaskMod.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T11:34:38.574Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Member.cs",
-              "DocumentMoniker": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.DAL\\Models\\Member.cs",
-              "RelativeDocumentMoniker": "Company.DAL\\Models\\Member.cs",
-              "ToolTip": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.DAL\\Models\\Member.cs",
-              "RelativeToolTip": "Company.DAL\\Models\\Member.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T11:33:51.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T11:23:02.277Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "20241225113029_AddSecurityModule.cs",
-              "DocumentMoniker": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.DAL\\Migrations\\20241225113029_AddSecurityModule.cs",
-              "RelativeDocumentMoniker": "Company.DAL\\Migrations\\20241225113029_AddSecurityModule.cs",
-              "ToolTip": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.DAL\\Migrations\\20241225113029_AddSecurityModule.cs",
-              "RelativeToolTip": "Company.DAL\\Migrations\\20241225113029_AddSecurityModule.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAQwBoAAAAAAAAA",
+              "Title": "TaskViewModel.cs",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\ViewModels\\TaskViewModel.cs",
+              "RelativeDocumentMoniker": "Company\\ViewModels\\TaskViewModel.cs",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\ViewModels\\TaskViewModel.cs",
+              "RelativeToolTip": "Company\\ViewModels\\TaskViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T11:30:30.066Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "LeaderReposatory.cs",
-              "DocumentMoniker": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.BLL\\Reposatories\\LeaderReposatory.cs",
-              "RelativeDocumentMoniker": "Company.BLL\\Reposatories\\LeaderReposatory.cs",
-              "ToolTip": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.BLL\\Reposatories\\LeaderReposatory.cs",
-              "RelativeToolTip": "Company.BLL\\Reposatories\\LeaderReposatory.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T11:26:35.078Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "MemberReposatory.cs",
-              "DocumentMoniker": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.BLL\\Reposatories\\MemberReposatory.cs",
-              "RelativeDocumentMoniker": "Company.BLL\\Reposatories\\MemberReposatory.cs",
-              "ToolTip": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.BLL\\Reposatories\\MemberReposatory.cs",
-              "RelativeToolTip": "Company.BLL\\Reposatories\\MemberReposatory.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T11:23:02.277Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "TaskRepository.cs",
-              "DocumentMoniker": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.BLL\\Reposatories\\TaskRepository.cs",
-              "RelativeDocumentMoniker": "Company.BLL\\Reposatories\\TaskRepository.cs",
-              "ToolTip": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.BLL\\Reposatories\\TaskRepository.cs",
-              "RelativeToolTip": "Company.BLL\\Reposatories\\TaskRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T10:30:21.447Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T18:56:34.825Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.BLL\\Reposatories\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "Company.BLL\\Reposatories\\UnitOfWork.cs",
-              "ToolTip": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.BLL\\Reposatories\\UnitOfWork.cs",
-              "RelativeToolTip": "Company.BLL\\Reposatories\\UnitOfWork.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAjwBQAAAAxAAAA",
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "Company\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "Company\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T10:21:40.572Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T17:33:19.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LogInViewModel.cs",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\ViewModels\\LogInViewModel.cs",
+              "RelativeDocumentMoniker": "Company\\ViewModels\\LogInViewModel.cs",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\ViewModels\\LogInViewModel.cs",
+              "RelativeToolTip": "Company\\ViewModels\\LogInViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T14:04:01.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TasksViewModel.cs",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\ViewModels\\TasksViewModel.cs",
+              "RelativeDocumentMoniker": "Company\\ViewModels\\TasksViewModel.cs",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\ViewModels\\TasksViewModel.cs",
+              "RelativeToolTip": "Company\\ViewModels\\TasksViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T19:06:11.959Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.BLL\\Interfaces\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "Company.BLL\\Interfaces\\IUnitOfWork.cs",
-              "ToolTip": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.BLL\\Interfaces\\IUnitOfWork.cs",
-              "RelativeToolTip": "Company.BLL\\Interfaces\\IUnitOfWork.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAEAAAA",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Company.DAL\\Models\\User.cs",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Models\\User.cs",
+              "RelativeToolTip": "Company.DAL\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T10:14:14.877Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Company.BLL.csproj",
-              "DocumentMoniker": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.BLL\\Company.BLL.csproj",
-              "RelativeDocumentMoniker": "Company.BLL\\Company.BLL.csproj",
-              "ToolTip": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.BLL\\Company.BLL.csproj",
-              "RelativeToolTip": "Company.BLL\\Company.BLL.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-23T17:25:32.679Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T15:58:04.041Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "Company.PL.csproj",
-              "DocumentMoniker": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company\\Company.PL.csproj",
-              "RelativeDocumentMoniker": "Company\\Company.PL.csproj",
-              "ToolTip": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company\\Company.PL.csproj",
-              "RelativeToolTip": "Company\\Company.PL.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-23T17:41:18.319Z",
-              "EditorCaption": ""
+              "Title": "Leader.cs",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Models\\Leader.cs",
+              "RelativeDocumentMoniker": "Company.DAL\\Models\\Leader.cs",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Models\\Leader.cs",
+              "RelativeToolTip": "Company.DAL\\Models\\Leader.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAmwBIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T14:56:36.988Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company\\ViewModels\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Company\\ViewModels\\ErrorViewModel.cs",
-              "ToolTip": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company\\ViewModels\\ErrorViewModel.cs",
-              "RelativeToolTip": "Company\\ViewModels\\ErrorViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "Company.DAL\\Models\\Project.cs",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Models\\Project.cs",
+              "RelativeToolTip": "Company.DAL\\Models\\Project.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T20:17:33.451Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T14:57:40.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ILeaderReposatory.cs",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.BLL\\Interfaces\\ILeaderReposatory.cs",
+              "RelativeDocumentMoniker": "Company.BLL\\Interfaces\\ILeaderReposatory.cs",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.BLL\\Interfaces\\ILeaderReposatory.cs",
+              "RelativeToolTip": "Company.BLL\\Interfaces\\ILeaderReposatory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T18:28:56.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Member.cs",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Models\\Member.cs",
+              "RelativeDocumentMoniker": "Company.DAL\\Models\\Member.cs",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Models\\Member.cs",
+              "RelativeToolTip": "Company.DAL\\Models\\Member.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T11:33:51.869Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company\\appsettings.json",
-              "RelativeDocumentMoniker": "Company\\appsettings.json",
-              "ToolTip": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company\\appsettings.json",
-              "RelativeToolTip": "Company\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-23T20:19:30.292Z",
-              "EditorCaption": ""
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Company\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Company\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T16:35:57.127Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
+              "Title": "MappSetting.cs",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\Helper\\MappSetting.cs",
+              "RelativeDocumentMoniker": "Company\\Helper\\MappSetting.cs",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\Helper\\MappSetting.cs",
+              "RelativeToolTip": "Company\\Helper\\MappSetting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T19:18:15.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "20241225192928_taskChange.cs",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Migrations\\20241225192928_taskChange.cs",
+              "RelativeDocumentMoniker": "Company.DAL\\Migrations\\20241225192928_taskChange.cs",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Migrations\\20241225192928_taskChange.cs",
+              "RelativeToolTip": "Company.DAL\\Migrations\\20241225192928_taskChange.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T19:29:28.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Company\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Company\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T19:10:46.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Company\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Company\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T19:10:45.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LeaderReposatory.cs",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.BLL\\Reposatories\\LeaderReposatory.cs",
+              "RelativeDocumentMoniker": "Company.BLL\\Reposatories\\LeaderReposatory.cs",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.BLL\\Reposatories\\LeaderReposatory.cs",
+              "RelativeToolTip": "Company.BLL\\Reposatories\\LeaderReposatory.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T11:26:35.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Company\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Company\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T17:27:43.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.BLL\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Company.BLL\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.BLL\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "Company.BLL\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T10:14:14.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IGenaricReposatory.cs",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.BLL\\Interfaces\\IGenaricReposatory.cs",
+              "RelativeDocumentMoniker": "Company.BLL\\Interfaces\\IGenaricReposatory.cs",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.BLL\\Interfaces\\IGenaricReposatory.cs",
+              "RelativeToolTip": "Company.BLL\\Interfaces\\IGenaricReposatory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T16:38:15.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20241225145918_AddProjectIdColumn.cs",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Migrations\\20241225145918_AddProjectIdColumn.cs",
+              "RelativeDocumentMoniker": "Company.DAL\\Migrations\\20241225145918_AddProjectIdColumn.cs",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Migrations\\20241225145918_AddProjectIdColumn.cs",
+              "RelativeToolTip": "Company.DAL\\Migrations\\20241225145918_AddProjectIdColumn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T16:07:05.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20241225155552_add missing.cs",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Migrations\\20241225155552_add missing.cs",
+              "RelativeDocumentMoniker": "Company.DAL\\Migrations\\20241225155552_add missing.cs",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Migrations\\20241225155552_add missing.cs",
+              "RelativeToolTip": "Company.DAL\\Migrations\\20241225155552_add missing.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T15:55:53.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20241225155913_add missing.cs",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Migrations\\20241225155913_add missing.cs",
+              "RelativeDocumentMoniker": "Company.DAL\\Migrations\\20241225155913_add missing.cs",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Migrations\\20241225155913_add missing.cs",
+              "RelativeToolTip": "Company.DAL\\Migrations\\20241225155913_add missing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T15:59:13.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20241225160355_add missing2.cs",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Migrations\\20241225160355_add missing2.cs",
+              "RelativeDocumentMoniker": "Company.DAL\\Migrations\\20241225160355_add missing2.cs",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Migrations\\20241225160355_add missing2.cs",
+              "RelativeToolTip": "Company.DAL\\Migrations\\20241225160355_add missing2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T16:03:55.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20241225113456_AddSecurityModule.cs",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Migrations\\20241225113456_AddSecurityModule.cs",
+              "RelativeDocumentMoniker": "Company.DAL\\Migrations\\20241225113456_AddSecurityModule.cs",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Migrations\\20241225113456_AddSecurityModule.cs",
+              "RelativeToolTip": "Company.DAL\\Migrations\\20241225113456_AddSecurityModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T16:07:01.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20241225155719_add missing.cs",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Migrations\\20241225155719_add missing.cs",
+              "RelativeDocumentMoniker": "Company.DAL\\Migrations\\20241225155719_add missing.cs",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Migrations\\20241225155719_add missing.cs",
+              "RelativeToolTip": "Company.DAL\\Migrations\\20241225155719_add missing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T15:57:19.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Company\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Company\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAD0AAAAAAAAAAADwv0IAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T14:02:21.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ProjectConfigurations.cs",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.BLL\\Configurations\\ProjectConfigurations.cs",
+              "RelativeDocumentMoniker": "Company.BLL\\Configurations\\ProjectConfigurations.cs",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.BLL\\Configurations\\ProjectConfigurations.cs",
+              "RelativeToolTip": "Company.BLL\\Configurations\\ProjectConfigurations.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T14:45:08.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "LogIn.cshtml",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\Views\\Account\\LogIn.cshtml",
+              "RelativeDocumentMoniker": "Company\\Views\\Account\\LogIn.cshtml",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\Views\\Account\\LogIn.cshtml",
+              "RelativeToolTip": "Company\\Views\\Account\\LogIn.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAADwvxoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T13:55:59.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20241225113029_AddSecurityModule.cs",
+              "DocumentMoniker": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.DAL\\Migrations\\20241225113029_AddSecurityModule.cs",
+              "ToolTip": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.DAL\\Migrations\\20241225113029_AddSecurityModule.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAQwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T11:30:30.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Company.BLL.csproj",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.BLL\\Company.BLL.csproj",
+              "RelativeDocumentMoniker": "Company.BLL\\Company.BLL.csproj",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.BLL\\Company.BLL.csproj",
+              "RelativeToolTip": "Company.BLL\\Company.BLL.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-23T17:25:32.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Company.PL.csproj",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\Company.PL.csproj",
+              "RelativeDocumentMoniker": "Company\\Company.PL.csproj",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\Company.PL.csproj",
+              "RelativeToolTip": "Company\\Company.PL.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-23T17:41:18.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\ViewModels\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Company\\ViewModels\\ErrorViewModel.cs",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\ViewModels\\ErrorViewModel.cs",
+              "RelativeToolTip": "Company\\ViewModels\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T20:17:33.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\appsettings.json",
+              "RelativeDocumentMoniker": "Company\\appsettings.json",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\appsettings.json",
+              "RelativeToolTip": "Company\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-23T20:19:30.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
               "Title": "Company.DAL.csproj",
-              "DocumentMoniker": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.DAL\\Company.DAL.csproj",
+              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Company.DAL.csproj",
               "RelativeDocumentMoniker": "Company.DAL\\Company.DAL.csproj",
-              "ToolTip": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.DAL\\Company.DAL.csproj",
+              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Company.DAL.csproj",
               "RelativeToolTip": "Company.DAL\\Company.DAL.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-23T17:14:24.063Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T17:14:24.063Z"
             }
           ]
         }

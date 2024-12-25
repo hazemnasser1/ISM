@@ -1,0 +1,95 @@
+﻿@using Company.PL.ViewModels
+@model TasksViewModel;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h2>Task Manager</h2>
+
+            <!-- View Tasks Section -->
+            <section id="view-tasks">
+                <h3>View Tasks</h3>
+                <table>
+                    <thead>
+                        <tr> 
+                            <th>Task Name</th>
+                            <th>Description</th>
+                            <th>Assigned To</th>
+                            @* <th>Due Date</th> *@
+                            <th>Status</th>
+                            <th>Delete Task</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- This is where server-side code will inject tasks -->
+                        @if (Model!=null)
+                        {
+                            foreach (var task in Model.Tasks)
+                            {
+                                <tr>
+                                    <td>@task.Name</td>
+                                    <td>@task.Description</td>
+                                    <td>@task.MemberID</td>
+                                    @* <td>@task.DueTo.ToString("yyyy-MM-dd")</td> *@
+                                    <td>@(task.isDone ? "Done" : "Pending")</td>
+                                    <td>
+                                        <form asp-action="DeleteTask" method="post">
+                                            <input type="hidden" name="TaskName" value="@task.Name" >
+                                            <button type="submit" class="btn btn-danger">Delete</button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                        else
+                        {
+                            <tr>
+                                <td colspan="7">No tasks available.</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <button id="add-task-btn" onclick="showAddTaskForm()">Add Task</button>
+            </section>
+
+            <!-- Add Task Section -->
+            <section id="add-task" style="display: none;">
+                <h3>Add a New Task</h3>
+                <form asp-action="AddTask" method="post" >
+                    <div>
+                        <label for="taskName">Task Name</label>
+                        <input asp-for="task.Name"  id="taskName"  required>
+                    </div>
+                    <div>
+                        <label for="description">Description</label>
+                        <input asp-for="task.Description"  id="description" required>
+                    </div>
+                    <div>
+                        <label for="assignedTo">Assigned To</label>
+                        <input asp-for="task.MemberID"  id="assignedTo" required>
+                    </div>
+                    <button type="submit">Add Task</button>
+                </form>
+                <button onclick="hideAddTaskForm()">Cancel</button>
+            </section>
+        </div>
+    </main>
+    <script>
+        function showAddTaskForm() {
+            document.getElementById('view-tasks').style.display = 'none';
+            document.getElementById('add-task').style.display = 'block';
+        }
+
+        function hideAddTaskForm() {
+            document.getElementById('add-task').style.display = 'none';
+            document.getElementById('view-tasks').style.display = 'block';
+        }
+    </script>
+</body>
+</html>`

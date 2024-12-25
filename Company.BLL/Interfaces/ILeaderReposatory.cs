@@ -11,6 +11,7 @@ namespace Company.BLL.Interfaces
     {
         List<Member>? showteam(int projectID);
         void AddTask(TaskMod task);
+        Leader GetByEmail(string email);
         void UpdateTask(TaskMod task);
         void addTeamMember(Member member,Leader leader);
     }

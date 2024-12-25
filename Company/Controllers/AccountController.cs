@@ -42,18 +42,30 @@ namespace Company.PL.Controllers
 					newUser.UserName = registerViewModel.FirstName + "_" + registerViewModel.LastName;
 					var result = await userManager.CreateAsync(newUser, registerViewModel.Password);
 					await userManager.AddToRoleAsync(newUser, registerViewModel.Role);
-					if (result.Succeeded)
+                    
+                    if (result.Succeeded)
 					{
-						if(registerViewModel.Role == "Leader")
+
+                        if (registerViewModel.Role == "Leader")
 						{
-							Leader leader = new Leader()
+                            var project = unitOfWork.ProjectRepository.Get(registerViewModel.ProjectId.Value);
+							if (project.status != "Active")
 							{
-								Name = registerViewModel.FirstName + " " +registerViewModel.LastName,
-								Email = registerViewModel.Email,
-								ProjectId = registerViewModel.ProjectId.Value,
-							};
-							unitOfWork.LeaderReposatory.Insert(leader);
-						}
+								Leader leader = new Leader()
+								{
+									Name = registerViewModel.FirstName + " " + registerViewModel.LastName,
+									Email = registerViewModel.Email,
+									ProjectId = registerViewModel.ProjectId.Value,
+								};
+								unitOfWork.LeaderReposatory.Insert(leader);
+
+
+								project.status = "Active";
+								unitOfWork.ProjectRepository.Update(project);
+							}
+							else return View(BadRequest());
+
+                        }
                         else
                         {
 							Member member = new Member()
@@ -64,6 +76,7 @@ namespace Company.PL.Controllers
 							unitOfWork.MemberReposatory.Insert(member);
                         }
 						unitOfWork.Complete();
+
                         return RedirectToAction("LogIn");
 					}
 					return View(BadRequest());
@@ -95,7 +108,7 @@ namespace Company.PL.Controllers
                             {
 								return RedirectToAction("Index", "Member");
                             }
-							return RedirectToAction("Index", "Leader");
+							return RedirectToAction("ShowTasks", "Leader");
 						}
 						return View(BadRequest());
 					}

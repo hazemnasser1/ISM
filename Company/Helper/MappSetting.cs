@@ -9,6 +9,7 @@ namespace Company.PL.Helper
 		public MappSetting() 
 		{
 			CreateMap<RegisterViewModel,User>().ReverseMap();
+			CreateMap<TaskViewModel,TaskMod>().ReverseMap();
 		}
 	}
 }

@@ -13,8 +13,10 @@ namespace Company.BLL.Interfaces
 		//private readonly CompanyDBContext dBContext;
 		public LeaderReposatory LeaderReposatory { get; set; }
 		public MemberReposatory MemberReposatory { get; set; }
+        public TaskRepository TaskRepository { get; set; }
+        public projectRepository ProjectRepository { get; set; }
 
-		int Complete();
+        int Complete();
 		void Dispose();
 	}
 }

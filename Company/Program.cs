@@ -19,7 +19,7 @@ namespace Company
             builder.Services.AddControllersWithViews();
             builder.Services.AddScoped(typeof(IGenaricReposatory<>), typeof(GenericRepository<>));
 			builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-			builder.Services.AddDbContext<CompanyDBContext>(options=>
+            builder.Services.AddDbContext<CompanyDBContext>(options =>
                 options.UseSqlServer("Server=.;database=companyDB;trusted_connection=true;encrypt=false")
             );
 			builder.Services.AddIdentity<User, IdentityRole>(config =>
@@ -40,7 +40,7 @@ namespace Company
 				options.ExpireTimeSpan = TimeSpan.FromHours(12);
 			});
 
-            
+            builder.Services.AddHttpContextAccessor();
 
             var app = builder.Build();
 
@@ -75,7 +75,7 @@ namespace Company
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Leader}/{action=ShowTasks}/{id?}");
 
             app.Run();
         }

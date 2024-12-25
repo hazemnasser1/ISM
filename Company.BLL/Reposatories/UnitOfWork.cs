@@ -14,6 +14,7 @@ namespace Company.BLL.Reposatories
 		public LeaderReposatory LeaderReposatory { get; set; }
 		public MemberReposatory MemberReposatory { get; set; }
 		public TaskRepository TaskRepository { get; set; }
+		public projectRepository ProjectRepository { get; set; }
 
 		public UnitOfWork(CompanyDBContext companyDB)
 		{
@@ -21,6 +22,8 @@ namespace Company.BLL.Reposatories
 			TaskRepository = new TaskRepository(dBContext);
 			LeaderReposatory = new LeaderReposatory(dBContext);
 			MemberReposatory = new MemberReposatory(dBContext);
+			ProjectRepository = new projectRepository(dBContext);
+
 
 
 		}

@@ -11,5 +11,10 @@ namespace Company.BLL.Reposatories
 	public class TaskRepository:GenericRepository<TaskMod>
 	{
 		public TaskRepository(CompanyDBContext dBContext) : base(dBContext) { }
+
+		public TaskMod GetTaskByName(string name)
+		{
+			return dBContext.tasks.Where(t => t.Name == name).FirstOrDefault();
+		}
 	}
 }

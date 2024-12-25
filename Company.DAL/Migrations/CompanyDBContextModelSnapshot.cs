@@ -105,21 +105,21 @@ namespace Company.DAL.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("MemberID")
+                        .HasColumnType("int");
+
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<bool?>("isDone")
+                    b.Property<bool>("isDone")
                         .HasColumnType("bit");
-
-                    b.Property<int?>("memberId")
-                        .HasColumnType("int");
 
                     b.Property<int?>("projectId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("memberId");
+                    b.HasIndex("MemberID");
 
                     b.HasIndex("projectId");
 
@@ -369,7 +369,9 @@ namespace Company.DAL.Migrations
                 {
                     b.HasOne("Company.DAL.Models.Member", "member")
                         .WithMany("tasks")
-                        .HasForeignKey("memberId");
+                        .HasForeignKey("MemberID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("Company.DAL.Models.Project", "project")
                         .WithMany("tasks")

@@ -1,0 +1,64 @@
+﻿@model List<Task>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tasks</title>
+</head>
+<body>
+    <main>
+        <div>
+            <div>
+                <h2>Tasks</h2>
+            </div>
+
+            <div id="task-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Project ID</th>
+                            <th>Id</th>
+                            <th>Name</th>
+                            <th>Description</th>
+                            <th>status</th>
+                            <th>Due Date</th>
+                            <th>done</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model != null)
+                        {
+                            foreach (var task in Model)
+                            {
+                                <tr>
+                                    <td>@task.projectID</td>
+                                    <td>@task.Id</td>
+                                    <td>@task.Name</td>
+                                    <td>@task.description</td>
+                                    <td>@(task.done ? "✔️ Completed" : "❌ Pending")</td>
+                                    <td>@task.dueTo.ToString("yyyy-MM-dd")</td>
+                                    <td>
+                                        <form method="post" action="/Tasks/ToggleStatus">
+                                            <input type="hidden" name="id" value="@task.Id" />
+                                            <button type="submit">
+                                                @(task.done ? "Mark as Pending" : "Mark as Done")
+                                            </button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                        else
+                        {
+                            <tr>
+                                <td colspan="6">No tasks available.</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

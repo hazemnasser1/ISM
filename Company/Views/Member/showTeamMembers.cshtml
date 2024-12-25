@@ -1,0 +1,119 @@
+﻿@model List<Member>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Team Members</title>
+</head>
+<body>
+    <main>
+        <div>
+            <h2>Team Members for this Project</h2>
+
+            <!-- Project Name Input -->
+            <div>
+                <label for="projectName">Project Name</label>
+                <input type="text" id="projectName" placeholder="Enter Project Name" />
+                <button onclick="filterTeamMembers()">Show Team Members</button>
+            </div>
+
+            <!-- Team Members Table -->
+            <div id="team-members-table" style="display: none;">
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Role</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body">
+                        @foreach (var member in Model)
+                        {
+                            foreach (var project in member.Projects)
+                            {
+                                <tr data-project="@project.name.ToLower()">
+                                    <td>@member.Id</td>
+                                    <td>@member.name</td>
+                                    <td>@member.email</td>
+                                    <td>@member.role</td>
+                                </tr>
+                                break; 
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+    <script>
+            function filterTeamMembers() {
+            const projectName = document.getElementById("projectName").value.trim();
+
+            if (!projectName) {
+                alert("Please enter a project name.");
+                return;
+            }
+
+            // Make an AJAX call to the controller
+            fetch(`/Project/GetProject?projectName=${encodeURIComponent(projectName)}`)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`No project found with the name "${projectName}"`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    const tableBody = document.getElementById("table-body");
+                    const teamMembersTable = document.getElementById("team-members-table");
+
+                    // Clear the table
+                    tableBody.innerHTML = "";
+
+                    // Populate the table with data
+                    if (data.members && data.members.length > 0) {
+                        data.members.forEach(member => {
+                            const row = `<tr>
+                                    <td>${member.id}</td>
+                                    <td>${member.name}</td>
+                                    <td>${member.email}</td>
+                                    <td>${member.role}</td>
+                                </tr>`;
+                            tableBody.innerHTML += row;
+                        });
+                        teamMembersTable.style.display = "block";
+                    } else {
+                        tableBody.innerHTML = `<tr>
+                                <td colspan="4">No team members found for the project "${projectName}".</td>
+                            </tr>`;
+                        teamMembersTable.style.display = "block";
+                    }
+                })
+                .catch(error => {
+                    alert(error.message);
+                });
+        }
+        // Function to filter team members based on project name
+        function filterTeamMembers() {
+            const projectName = document.getElementById('projectName').value.toLowerCase();
+            const rows = document.querySelectorAll('#table-body tr');
+
+            rows.forEach(row => {
+                const project = row.getAttribute('data-project');
+                if (projectName === "" || project.includes(projectName)) {
+                    row.style.display = '';
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+
+            // Show or hide the table based on the filtered results
+            const tableVisible = Array.from(rows).some(row => row.style.display !== 'none');
+            document.getElementById('team-members-table').style.display = tableVisible ? 'block' : 'none';
+        }
+    </script>
+</body>
+</html>

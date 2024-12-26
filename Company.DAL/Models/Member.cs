@@ -14,6 +14,7 @@ namespace Company.DAL.Models
         [MaxLength(50)]
         public string? Name { get; set; }
         [Required]
+        
         public string? Email { get; set; }
         public List<Project>? projects { get; set; }
         public List<TaskMod>? tasks { get; set; }

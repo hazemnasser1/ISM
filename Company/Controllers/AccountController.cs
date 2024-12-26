@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿using System.Security.Claims;
+using AutoMapper;
 using Company.BLL.Interfaces;
 using Company.DAL.Models;
 using Company.PL.Helper;
@@ -15,14 +16,19 @@ namespace Company.PL.Controllers
 		private readonly RoleManager<IdentityRole> roleManager;
 		private readonly IUnitOfWork unitOfWork;
 		private readonly IMapper autoMapper;
+        public static string CurrentMemberEmail;
 
-		public AccountController(UserManager<User> userManager, SignInManager<User> signInManager, IUnitOfWork unitOfWork, IMapper mapper, RoleManager<IdentityRole> roleManager)
+        private readonly IHttpContextAccessor _httpContextAccessor;
+
+
+        public AccountController(UserManager<User> userManager, SignInManager<User> signInManager, IUnitOfWork unitOfWork, IMapper mapper, RoleManager<IdentityRole> roleManager, IHttpContextAccessor httpContextAccessor)
 		{
 			this.userManager = userManager;
 			this.signInManager = signInManager;
 			this.unitOfWork = unitOfWork;
 			autoMapper = mapper;
 			this.roleManager = roleManager;
+			_httpContextAccessor = httpContextAccessor;
 		}
 
 		[HttpGet]
@@ -123,6 +129,22 @@ namespace Company.PL.Controllers
 		{
 			signInManager.SignOutAsync();
 			return View("LogIn");
+		}
+		public IActionResult Home()
+		{
+            var currentUser = _httpContextAccessor?.HttpContext?.User;
+            if (currentUser != null)
+			{
+                var CurrentRole = currentUser?.FindFirst(ClaimTypes.Role)?.Value;
+                if (CurrentRole == "Leader")
+				{
+					return RedirectToAction("ShowTasks", "Leader");
+				}
+				return RedirectToAction("ShowTasks", "Member");
+
+            }
+
+            return RedirectToAction("LogIn");
 		}
 	}
 }

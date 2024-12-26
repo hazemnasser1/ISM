@@ -22,8 +22,7 @@ namespace Company.DAL.Contexts
         {
             builder.ApplyConfigurationsFromAssembly(System.Reflection.Assembly.GetExecutingAssembly());
             base.OnModelCreating(builder);
-          
-
+            
         }
 
         public DbSet<Member>? members { get; set; }

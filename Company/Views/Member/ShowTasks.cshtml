@@ -1,4 +1,5 @@
-﻿@model List<Task>
+﻿@using Company.DAL.Models
+@model List<TaskMod>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -22,27 +23,27 @@
                             <th>Name</th>
                             <th>Description</th>
                             <th>status</th>
-                            <th>Due Date</th>
+                            @* <th>Due Date</th> *@
                             <th>done</th>
                         </tr>
                     </thead>
                     <tbody>
-                        @if (Model != null)
+                        @if (Model != null || Model.Count() > 0)
                         {
                             foreach (var task in Model)
                             {
                                 <tr>
-                                    <td>@task.projectID</td>
+                                    <td>@task.project.Id</td>
                                     <td>@task.Id</td>
                                     <td>@task.Name</td>
-                                    <td>@task.description</td>
-                                    <td>@(task.done ? "✔️ Completed" : "❌ Pending")</td>
-                                    <td>@task.dueTo.ToString("yyyy-MM-dd")</td>
+                                    <td>@task.Description</td>
+                                    <td>@(task.isDone ? "✔️ Completed" : "❌ Pending")</td>
+                                    @* <td>@task.dueTo.ToString("yyyy-MM-dd")</td> *@
                                     <td>
-                                        <form method="post" action="/Tasks/ToggleStatus">
+                                        <form method="post" asp-action="MarkAsDone">
                                             <input type="hidden" name="id" value="@task.Id" />
                                             <button type="submit">
-                                                @(task.done ? "Mark as Pending" : "Mark as Done")
+                                                @(task.isDone ? "Mark as Pending" : "Mark as Done")
                                             </button>
                                         </form>
                                     </td>

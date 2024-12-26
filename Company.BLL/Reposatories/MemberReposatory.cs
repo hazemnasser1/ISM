@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Company.BLL.Interfaces;
 using Company.DAL.Contexts;
 using Company.DAL.Models;
+using Microsoft.EntityFrameworkCore;
 
 
 namespace Company.BLL.Reposatories
@@ -28,9 +29,20 @@ namespace Company.BLL.Reposatories
 
         public List<Member>? showteam(int projectID)
         {
-            Project project = dBContext.Find<Project>(projectID);
+            Project project = dBContext.projects.Where(p=>p.Id == projectID).Include(p=>p.members).FirstOrDefault();
 
             return project.members.ToList();
+        }
+
+        public Member GetMemberWithEmail(string email)
+        {
+            return dBContext.members.Where(m=>m.Email == email).Include(m=>m.tasks).ThenInclude(t=>t.project).Include(m => m.projects).FirstOrDefault();
+        }
+
+        public void RemoveTask(TaskMod task, string email)
+        {
+            var member = GetMemberWithEmail(email);
+            member.tasks.Remove(task);
         }
     }
 }

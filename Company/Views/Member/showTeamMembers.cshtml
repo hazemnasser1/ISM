@@ -1,4 +1,5 @@
-﻿@model List<Member>
+﻿@using Company.PL.ViewModels
+@model List<ProjectMembers>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -13,43 +14,41 @@
             <h2>Team Members for this Project</h2>
 
             <!-- Project Name Input -->
-            <div>
+            @* <div>
                 <label for="projectName">Project Name</label>
                 <input type="text" id="projectName" placeholder="Enter Project Name" />
                 <button onclick="filterTeamMembers()">Show Team Members</button>
-            </div>
+            </div> *@
 
             <!-- Team Members Table -->
-            <div id="team-members-table" style="display: none;">
+            <div id="team-members-table">
                 <table border="1">
                     <thead>
                         <tr>
                             <th>Id</th>
                             <th>Name</th>
                             <th>Email</th>
-                            <th>Role</th>
+
                         </tr>
                     </thead>
                     <tbody id="table-body">
                         @foreach (var member in Model)
                         {
-                            foreach (var project in member.Projects)
+                            <tr data-project="@member.Name.ToLower()">
+                            @foreach(var item in member.members)
                             {
-                                <tr data-project="@project.name.ToLower()">
-                                    <td>@member.Id</td>
-                                    <td>@member.name</td>
-                                    <td>@member.email</td>
-                                    <td>@member.role</td>
-                                </tr>
-                                break; 
+                                <td>@item.Id</td>
+                                <td>@item.Name</td>
+                                <td>@item.Email</td>
                             }
+                            </tr>
                         }
                     </tbody>
                 </table>
             </div>
         </div>
     </main>
-    <script>
+    @* <script>
             function filterTeamMembers() {
             const projectName = document.getElementById("projectName").value.trim();
 
@@ -114,6 +113,6 @@
             const tableVisible = Array.from(rows).some(row => row.style.display !== 'none');
             document.getElementById('team-members-table').style.display = tableVisible ? 'block' : 'none';
         }
-    </script>
+    </script> *@
 </body>
 </html>

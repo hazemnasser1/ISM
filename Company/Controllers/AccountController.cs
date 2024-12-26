@@ -106,7 +106,7 @@ namespace Company.PL.Controllers
                         {
                             if (check.Role == "Member")
                             {
-								return RedirectToAction("Index", "Member");
+								return RedirectToAction("ShowTasks", "Member");
                             }
 							return RedirectToAction("ShowTasks", "Leader");
 						}

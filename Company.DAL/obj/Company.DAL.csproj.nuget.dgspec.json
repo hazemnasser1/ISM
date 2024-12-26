@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.DAL\\Company.DAL.csproj": {}
+    "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Company.DAL.csproj": {}
   },
   "projects": {
-    "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.DAL\\Company.DAL.csproj": {
+    "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Company.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.DAL\\Company.DAL.csproj",
+        "projectUniqueName": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Company.DAL.csproj",
         "projectName": "Company.DAL",
-        "projectPath": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.DAL\\Company.DAL.csproj",
-        "packagesPath": "C:\\Users\\mark\\.nuget\\packages\\",
-        "outputPath": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.DAL\\obj\\",
+        "projectPath": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Company.DAL.csproj",
+        "packagesPath": "C:\\Users\\hazem\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mark\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hazem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,8 +42,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -83,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

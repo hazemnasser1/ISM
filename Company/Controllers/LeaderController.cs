@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Company.PL.Controllers
 {
-    [Authorize]
+    [Authorize(Roles ="Leader")]
     public class LeaderController: Controller
     {
         private readonly IUnitOfWork unitOfWork;
@@ -56,7 +56,7 @@ namespace Company.PL.Controllers
             unitOfWork.TaskRepository.Insert(ourtask);
             unitOfWork.Complete();
 
-            return View("ShowTasks");
+            return RedirectToAction("ShowTasks");
         }
         [HttpPost]
         public IActionResult DeleteTask(string TaskName)
@@ -64,7 +64,7 @@ namespace Company.PL.Controllers
             var task=unitOfWork.TaskRepository.GetTaskByName(TaskName);
             unitOfWork.TaskRepository.Delete(task);
             unitOfWork.Complete();
-            return View("ShowTasks");
+            return RedirectToAction("ShowTasks");
             
         }
         

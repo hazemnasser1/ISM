@@ -38,7 +38,6 @@ namespace Company.PL.Controllers
             {
                 task.isDone = true;
                 unitOfWork.TaskRepository.Update(task);
-                unitOfWork.MemberReposatory.RemoveTask(task, CurrentMemberEmail);
                 unitOfWork.Complete();
                 return RedirectToAction("ShowTasks");
             }

@@ -75,7 +75,7 @@ namespace Company
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Account}/{action=LogIn}/{id?}");
+                pattern: "{controller=Leader}/{action=ShowTasks}/{id?}");
 
             app.Run();
         }

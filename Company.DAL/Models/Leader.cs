@@ -15,6 +15,8 @@ namespace Company.DAL.Models
         public string? Name { get; set; }
         [Required]
         public string? Email { get; set; }
+
+        public List<Member>? members { get; set; }
         
         public Project? Project { get; set;}
         public int ProjectId { get; set; }

@@ -18,7 +18,7 @@ namespace Company.DAL.Models
         public List<Project>? projects { get; set; }
         public List<TaskMod>? tasks { get; set; }
 
-        public Leader? leader;
+        public List<Leader>? leaders { get; set; }
 
     }
 }

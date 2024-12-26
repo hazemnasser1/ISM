@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Company.BLL.Interfaces;
 using Company.DAL.Contexts;
 using Company.DAL.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Company.BLL.Reposatories
 {
@@ -36,7 +37,7 @@ namespace Company.BLL.Reposatories
 
         public Leader GetByEmail(string email)
         {
-            return dBContext.leaders.Where(m => m.Email == email).FirstOrDefault();
+            return dBContext.leaders.Where(m => m.Email == email).Include(l => l.members).FirstOrDefault();
         }
 
         public List<Member>? showteam(int projectID)

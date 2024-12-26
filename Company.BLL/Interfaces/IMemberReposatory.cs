@@ -12,7 +12,7 @@ namespace Company.BLL.Interfaces
         void MarkAsDone(TaskMod task);
         List<TaskMod>? Showtasks(Member member);
         List<Member>? showteam(int projectID);
-        
+        Member GetMemberWithInclude(int id);
     }
 
 }

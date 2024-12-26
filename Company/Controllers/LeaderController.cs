@@ -61,9 +61,10 @@ namespace Company.PL.Controllers
             if (project == null)
                 return NotFound("Project not found.");
 
-            var member = unitOfWork.MemberReposatory.Get(task.MemberID);
+            var member = unitOfWork.MemberReposatory.GetMemberWithInclude(task.MemberID); ;
             if (member == null)
                 return NotFound("Member not found.");
+            
 
             // Check if the member is already part of the project
             if (!project.members.Any(m => m.Id == member.Id))
@@ -71,7 +72,7 @@ namespace Company.PL.Controllers
                 // Add member to the project only if not already added
                 project.members.Add(member);
             }
-
+           
             // Check if the leader is already associated with the member
             if (!member.leaders.Any(l => l.Id == user.Id))
             {
@@ -112,6 +113,15 @@ namespace Company.PL.Controllers
             unitOfWork.Complete();
             return RedirectToAction("ShowTasks");
             
+        }
+        [HttpGet]
+        public IActionResult AddTeamMember()
+        {
+            var CurrentUser = _httpContextAccessor.HttpContext?.User;
+            var userEmail = CurrentUser?.FindFirst(ClaimTypes.Email)?.Value;
+            var user = unitOfWork.LeaderReposatory.GetByEmail(userEmail);
+            var members = user.members.ToList();
+            return View(members);
         }
         [HttpPost]
         public IActionResult AddTeamMember(string email)
@@ -179,7 +189,7 @@ namespace Company.PL.Controllers
             var task = unitOfWork.TaskRepository.GetTaskByName(TaskName);
             var ourTask = autoMapper.Map<TaskMod, TaskViewModel>(task);
             return View(ourTask);
-
+            
 
         }
 

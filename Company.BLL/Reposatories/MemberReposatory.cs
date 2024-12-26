@@ -36,13 +36,18 @@ namespace Company.BLL.Reposatories
 
         public Member GetMemberWithEmail(string email)
         {
-            return dBContext.members.Where(m=>m.Email == email).Include(m=>m.tasks).ThenInclude(t=>t.project).Include(m => m.projects).FirstOrDefault();
+            return dBContext.members.Where(m=>m.Email == email).Include(m=>m.tasks).ThenInclude(t=>t.project).Include(m => m.projects).Include(m =>m.leaders).FirstOrDefault();
         }
-
+        
         public void RemoveTask(TaskMod task, string email)
         {
             var member = GetMemberWithEmail(email);
             member.tasks.Remove(task);
+        }
+
+        public Member GetMemberWithInclude(int id)
+        {
+            return dBContext.members.Include(m => m.leaders).FirstOrDefault();
         }
     }
 }

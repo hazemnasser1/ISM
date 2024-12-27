@@ -41,7 +41,7 @@ namespace Company.PL.Controllers
                 unitOfWork.Complete();
                 return RedirectToAction("ShowTasks");
             }
-            return View(BadRequest("No Task Id With This Value"));
+            return RedirectToAction("Error", "Home");
         }
         public IActionResult showTeamMembers()
         {

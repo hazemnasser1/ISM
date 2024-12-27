@@ -45,7 +45,7 @@ namespace Company.PL.Controllers
         public IActionResult AddTask(TaskViewModel task)
         {
             if (task == null)
-                return BadRequest("Task cannot be null.");
+                return RedirectToAction("Error", "Home");
 
             var currentUser = _httpContextAccessor.HttpContext?.User;
             var userEmail = currentUser?.FindFirst(ClaimTypes.Email)?.Value;
@@ -84,7 +84,7 @@ namespace Company.PL.Controllers
             // Map and add the task
             var ourTask = autoMapper.Map<TaskViewModel, TaskMod>(task);
             if (ourTask == null)
-                return BadRequest("Task mapping failed.");
+                return RedirectToAction("Error", "Home");
 
             project.tasks.Add(ourTask);
 
@@ -128,7 +128,7 @@ namespace Company.PL.Controllers
         public IActionResult AddTeamMember(string email)
         {
             if (string.IsNullOrEmpty(email))
-                return BadRequest("Email cannot be null or empty.");
+                return RedirectToAction("Error", "Home");
 
             var currentUser = _httpContextAccessor.HttpContext?.User;
             var userEmail = currentUser?.FindFirst(ClaimTypes.Email)?.Value;

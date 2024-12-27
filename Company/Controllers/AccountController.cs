@@ -69,7 +69,7 @@ namespace Company.PL.Controllers
 								project.status = "Active";
 								unitOfWork.ProjectRepository.Update(project);
 							}
-							else return View(BadRequest());
+							else return RedirectToAction("Error","Home");
 
                         }
                         else
@@ -85,11 +85,11 @@ namespace Company.PL.Controllers
 
                         return RedirectToAction("LogIn");
 					}
-					return View(BadRequest());
-				}
+					return RedirectToAction("Error", "Home");
+                }
 				return RedirectToAction("LogIn");
             }
-			return View(BadRequest());
+			return RedirectToAction("Error", "Home");
         }
 		[HttpGet]
 		public IActionResult LogIn()
@@ -116,14 +116,14 @@ namespace Company.PL.Controllers
                             }
 							return RedirectToAction("ShowTasks", "Leader");
 						}
-						return View(BadRequest());
-					}
-					return View(BadRequest("Wrong Password"));
+						return RedirectToAction("Error", "Home");
+                    }
+					return View(NotFound("Wrong Password"));
 				}
 				return RedirectToAction("Register");
 			}
-			return View(BadRequest());
-		}
+			return RedirectToAction("Error", "Home");
+        }
 		[HttpGet]
 		public IActionResult SignOut()
 		{

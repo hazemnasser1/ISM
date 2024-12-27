@@ -2994,24 +2994,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mamom\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\mark\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ism project\\ISM\\Company.BLL\\Company.BLL.csproj",
+      "projectUniqueName": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.BLL\\Company.BLL.csproj",
       "projectName": "Company.BLL",
-      "projectPath": "D:\\ism project\\ISM\\Company.BLL\\Company.BLL.csproj",
-      "packagesPath": "C:\\Users\\mamom\\.nuget\\packages\\",
-      "outputPath": "D:\\ism project\\ISM\\Company.BLL\\obj\\",
+      "projectPath": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.BLL\\Company.BLL.csproj",
+      "packagesPath": "C:\\Users\\mark\\.nuget\\packages\\",
+      "outputPath": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.BLL\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\mamom\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\mark\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3019,14 +3014,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\ism project\\ISM\\Company.DAL\\Company.DAL.csproj": {
-              "projectPath": "D:\\ism project\\ISM\\Company.DAL\\Company.DAL.csproj"
+            "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.DAL\\Company.DAL.csproj": {
+              "projectPath": "D:\\Collage\\4th_year\\first_semester\\ISM\\ISM\\Company.DAL\\Company.DAL.csproj"
             }
           }
         }
@@ -3040,8 +3036,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -3068,7 +3063,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   },

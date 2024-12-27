@@ -8314,23 +8314,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hazem\\.nuget\\packages\\": {},
+    "C:\\Users\\mamom\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\Company.PL.csproj",
+      "projectUniqueName": "D:\\ism project\\ISM\\Company\\Company.PL.csproj",
       "projectName": "Company.PL",
-      "projectPath": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\Company.PL.csproj",
-      "packagesPath": "C:\\Users\\hazem\\.nuget\\packages\\",
-      "outputPath": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\obj\\",
+      "projectPath": "D:\\ism project\\ISM\\Company\\Company.PL.csproj",
+      "packagesPath": "C:\\Users\\mamom\\.nuget\\packages\\",
+      "outputPath": "D:\\ism project\\ISM\\Company\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\hazem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mamom\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -8345,8 +8345,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.BLL\\Company.BLL.csproj": {
-              "projectPath": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.BLL\\Company.BLL.csproj"
+            "D:\\ism project\\ISM\\Company.BLL\\Company.BLL.csproj": {
+              "projectPath": "D:\\ism project\\ISM\\Company.BLL\\Company.BLL.csproj"
             }
           }
         }
@@ -8359,7 +8359,7 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
+        "auditMode": "direct"
       },
       "SdkAnalysisLevel": "9.0.100"
     },
@@ -8401,21 +8401,11 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
   "logs": [
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Text.Json' 7.0.3 has a known high severity vulnerability, https://github.com/advisories/GHSA-hh2w-p6rv-4g7w",
-      "libraryId": "System.Text.Json",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
     {
       "code": "NU1701",
       "level": "Warning",

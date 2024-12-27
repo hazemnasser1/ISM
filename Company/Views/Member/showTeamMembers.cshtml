@@ -1,25 +1,48 @@
 ﻿@using Company.PL.ViewModels
 @model List<ProjectMembers>
-
+@{
+    Layout = null;
+}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Team Members</title>
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" asp-append-version="true" />
+    <link href="~/css/body.css" rel="stylesheet" asp-append-version="true" />
 </head>
 <body>
     <main>
+        <nav class="navbar navbar-expand-md  fixed-top px-xl-5 text-center" id="navbar-example">
+            <div class="container-fluid container-xl px-xl-5">
+                <a class="navbar-brand text-uppercase fw-bolder ms-4 font-montserrat" href="#">project management</a>
+                <button class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link lh-sm text-black me-4 fs-14"
+                               asp-action="ShowTasks">manage Tasks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link lh-sm text-black me-4 active fs-14"
+                               aria-current="page"
+                               asp-action="showTeamMembers">show Team Members</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <div>
             <h2>Team Members for this Project</h2>
-
-            <!-- Project Name Input -->
-            @* <div>
-                <label for="projectName">Project Name</label>
-                <input type="text" id="projectName" placeholder="Enter Project Name" />
-                <button onclick="filterTeamMembers()">Show Team Members</button>
-            </div> *@
-
             <!-- Team Members Table -->
             <div id="team-members-table">
                 <table border="1">
@@ -28,7 +51,6 @@
                             <th>Id</th>
                             <th>Name</th>
                             <th>Email</th>
-
                         </tr>
                     </thead>
                     <tbody id="table-body">
@@ -48,71 +70,5 @@
             </div>
         </div>
     </main>
-    @* <script>
-            function filterTeamMembers() {
-            const projectName = document.getElementById("projectName").value.trim();
-
-            if (!projectName) {
-                alert("Please enter a project name.");
-                return;
-            }
-
-            // Make an AJAX call to the controller
-            fetch(`/Project/GetProject?projectName=${encodeURIComponent(projectName)}`)
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error(`No project found with the name "${projectName}"`);
-                    }
-                    return response.json();
-                })
-                .then(data => {
-                    const tableBody = document.getElementById("table-body");
-                    const teamMembersTable = document.getElementById("team-members-table");
-
-                    // Clear the table
-                    tableBody.innerHTML = "";
-
-                    // Populate the table with data
-                    if (data.members && data.members.length > 0) {
-                        data.members.forEach(member => {
-                            const row = `<tr>
-                                    <td>${member.id}</td>
-                                    <td>${member.name}</td>
-                                    <td>${member.email}</td>
-                                    <td>${member.role}</td>
-                                </tr>`;
-                            tableBody.innerHTML += row;
-                        });
-                        teamMembersTable.style.display = "block";
-                    } else {
-                        tableBody.innerHTML = `<tr>
-                                <td colspan="4">No team members found for the project "${projectName}".</td>
-                            </tr>`;
-                        teamMembersTable.style.display = "block";
-                    }
-                })
-                .catch(error => {
-                    alert(error.message);
-                });
-        }
-        // Function to filter team members based on project name
-        function filterTeamMembers() {
-            const projectName = document.getElementById('projectName').value.toLowerCase();
-            const rows = document.querySelectorAll('#table-body tr');
-
-            rows.forEach(row => {
-                const project = row.getAttribute('data-project');
-                if (projectName === "" || project.includes(projectName)) {
-                    row.style.display = '';
-                } else {
-                    row.style.display = 'none';
-                }
-            });
-
-            // Show or hide the table based on the filtered results
-            const tableVisible = Array.from(rows).some(row => row.style.display !== 'none');
-            document.getElementById('team-members-table').style.display = tableVisible ? 'block' : 'none';
-        }
-    </script> *@
 </body>
 </html>

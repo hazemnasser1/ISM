@@ -1,0 +1,88 @@
+﻿/* Adding Bootstrap classes for styling */
+body {
+    background-color: #8278E8; /* Light gray background from Bootstrap theme */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Center the container */
+.container {
+    background-color: #ffffff; /* White background for the container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Softer shadow effect */
+    width: 60%;
+    max-width: 350px; /* Smaller container width */
+    text-align: center;
+}
+
+/* Headline styling */
+h1 {
+    color: #343a40; /* Bootstrap dark color */
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+/* Input field styling */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ced4da; /* Bootstrap border color */
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+/* Button styling */
+button {
+    background-color: #007bff; /* Bootstrap primary button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    margin-top: 15px;
+}
+
+    button:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+    }
+
+/* Checkbox styling */
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+label {
+    font-size: 1rem;
+    color: #343a40;
+}
+
+/* Link styling */
+a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 0.9rem;
+    margin-top: 15px;
+    display: block;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+/* Message styling */
+p {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: red;
+}

@@ -1,101 +1,133 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\",
+  "WorkspaceRootPath": "D:\\ism project\\ISM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company\\controllers\\leadercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\controllers\\leadercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\controllers\\leadercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\views\\leader\\updatetask.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\views\\leader\\updatetask.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company.dal\\contexts\\companydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|solutionrelative:company.dal\\contexts\\companydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\wwwroot\\css\\body.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\wwwroot\\css\\body.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company.dal\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|solutionrelative:company.dal\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company.dal\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|solutionrelative:company.dal\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company\\viewmodels\\taskviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\viewmodels\\taskviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company.bll\\reposatories\\memberreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\reposatories\\memberreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company.bll\\reposatories\\leaderreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\reposatories\\leaderreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company.bll\\interfaces\\imemberreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\interfaces\\imemberreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company.bll\\reposatories\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\reposatories\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company.bll\\reposatories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\reposatories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company\\views\\member\\showteammembers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\views\\member\\showteammembers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company\\views\\member\\showtasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\views\\member\\showtasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company\\viewmodels\\projectmembers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\viewmodels\\projectmembers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company.dal\\models\\leader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|solutionrelative:company.dal\\models\\leader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company.dal\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|solutionrelative:company.dal\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company.bll\\reposatories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\reposatories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company\\views\\leader\\showtasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\views\\leader\\showtasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\views\\leader\\showtasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company.bll\\reposatories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\views\\member\\showteammembers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\views\\member\\showteammembers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\views\\member\\showtasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\views\\member\\showtasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|d:\\ism project\\ism\\company.bll\\reposatories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\reposatories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\views\\leader\\showteammember.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\views\\leader\\showteammember.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\views\\leader\\addteammember.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\views\\leader\\addteammember.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|d:\\ism project\\ism\\company.bll\\reposatories\\leaderreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\reposatories\\leaderreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\viewmodels\\projectmembers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\viewmodels\\projectmembers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\wwwroot\\css\\signup.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\wwwroot\\css\\signup.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|d:\\ism project\\ism\\company.dal\\contexts\\companydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|solutionrelative:company.dal\\contexts\\companydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|d:\\ism project\\ism\\company.dal\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|solutionrelative:company.dal\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|d:\\ism project\\ism\\company.dal\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|solutionrelative:company.dal\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\viewmodels\\taskviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\viewmodels\\taskviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|d:\\ism project\\ism\\company.bll\\reposatories\\memberreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\reposatories\\memberreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|d:\\ism project\\ism\\company.bll\\interfaces\\imemberreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\interfaces\\imemberreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|d:\\ism project\\ism\\company.bll\\reposatories\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\reposatories\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|d:\\ism project\\ism\\company.bll\\reposatories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\reposatories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|d:\\ism project\\ism\\company.dal\\models\\leader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|solutionrelative:company.dal\\models\\leader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|d:\\ism project\\ism\\company.dal\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|solutionrelative:company.dal\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|d:\\ism project\\ism\\company.bll\\reposatories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\reposatories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company.dal\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|d:\\ism project\\ism\\company.dal\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|solutionrelative:company.dal\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|c:\\projects\\.net_visual_studio\\console_c#\\comp\\ism\\company.dal\\migrations\\20241226165902_leader-member-many-to-many.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|d:\\ism project\\ism\\company.dal\\migrations\\20241226165902_leader-member-many-to-many.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|solutionrelative:company.dal\\migrations\\20241226165902_leader-member-many-to-many.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -106,132 +138,179 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Company.DAL\\Models\\User.cs",
-              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Models\\User.cs",
-              "RelativeToolTip": "Company.DAL\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T22:29:06.522Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MemberReposatory.cs",
-              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.BLL\\Reposatories\\MemberReposatory.cs",
-              "RelativeDocumentMoniker": "Company.BLL\\Reposatories\\MemberReposatory.cs",
-              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.BLL\\Reposatories\\MemberReposatory.cs",
-              "RelativeToolTip": "Company.BLL\\Reposatories\\MemberReposatory.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T10:53:10.441Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MemberController.cs",
-              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\Controllers\\MemberController.cs",
-              "RelativeDocumentMoniker": "Company\\Controllers\\MemberController.cs",
-              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\Controllers\\MemberController.cs",
-              "RelativeToolTip": "Company\\Controllers\\MemberController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T08:43:19.317Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\Program.cs",
-              "RelativeDocumentMoniker": "Company\\Program.cs",
-              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\Program.cs",
-              "RelativeToolTip": "Company\\Program.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAcwE0AAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T14:43:33.695Z",
+              "Title": "UpdateTask.cshtml",
+              "DocumentMoniker": "D:\\ism project\\ISM\\Company\\Views\\Leader\\UpdateTask.cshtml",
+              "RelativeDocumentMoniker": "Company\\Views\\Leader\\UpdateTask.cshtml",
+              "ToolTip": "D:\\ism project\\ISM\\Company\\Views\\Leader\\UpdateTask.cshtml*",
+              "RelativeToolTip": "Company\\Views\\Leader\\UpdateTask.cshtml*",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADcAAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T01:15:23.521Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "ShowTeamMember.cshtml",
+              "DocumentMoniker": "D:\\ism project\\ISM\\Company\\Views\\Leader\\ShowTeamMember.cshtml",
+              "RelativeDocumentMoniker": "Company\\Views\\Leader\\ShowTeamMember.cshtml",
+              "ToolTip": "D:\\ism project\\ISM\\Company\\Views\\Leader\\ShowTeamMember.cshtml",
+              "RelativeToolTip": "Company\\Views\\Leader\\ShowTeamMember.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T00:38:41.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "login.css",
+              "DocumentMoniker": "D:\\ism project\\ISM\\Company\\wwwroot\\css\\login.css",
+              "RelativeDocumentMoniker": "Company\\wwwroot\\css\\login.css",
+              "ToolTip": "D:\\ism project\\ISM\\Company\\wwwroot\\css\\login.css",
+              "RelativeToolTip": "Company\\wwwroot\\css\\login.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-27T00:30:42.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "signUp.css",
+              "DocumentMoniker": "D:\\ism project\\ISM\\Company\\wwwroot\\css\\signUp.css",
+              "RelativeDocumentMoniker": "Company\\wwwroot\\css\\signUp.css",
+              "ToolTip": "D:\\ism project\\ISM\\Company\\wwwroot\\css\\signUp.css",
+              "RelativeToolTip": "Company\\wwwroot\\css\\signUp.css",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAcwF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-27T00:06:43.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\ism project\\ISM\\Company\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Company\\Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\ism project\\ISM\\Company\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Company\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T00:03:00.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LogIn.cshtml",
+              "DocumentMoniker": "D:\\ism project\\ISM\\Company\\Views\\Account\\LogIn.cshtml",
+              "RelativeDocumentMoniker": "Company\\Views\\Account\\LogIn.cshtml",
+              "ToolTip": "D:\\ism project\\ISM\\Company\\Views\\Account\\LogIn.cshtml",
+              "RelativeToolTip": "Company\\Views\\Account\\LogIn.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T00:02:52.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "body.css",
+              "DocumentMoniker": "D:\\ism project\\ISM\\Company\\wwwroot\\css\\body.css",
+              "RelativeDocumentMoniker": "Company\\wwwroot\\css\\body.css",
+              "ToolTip": "D:\\ism project\\ISM\\Company\\wwwroot\\css\\body.css",
+              "RelativeToolTip": "Company\\wwwroot\\css\\body.css",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-26T23:52:00.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddTeamMember.cshtml",
+              "DocumentMoniker": "D:\\ism project\\ISM\\Company\\Views\\Leader\\AddTeamMember.cshtml",
+              "RelativeDocumentMoniker": "Company\\Views\\Leader\\AddTeamMember.cshtml",
+              "ToolTip": "D:\\ism project\\ISM\\Company\\Views\\Leader\\AddTeamMember.cshtml",
+              "RelativeToolTip": "Company\\Views\\Leader\\AddTeamMember.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T23:42:27.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "TaskViewModel.cs",
-              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\ViewModels\\TaskViewModel.cs",
+              "DocumentMoniker": "D:\\ism project\\ISM\\Company\\ViewModels\\TaskViewModel.cs",
               "RelativeDocumentMoniker": "Company\\ViewModels\\TaskViewModel.cs",
-              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\ViewModels\\TaskViewModel.cs",
+              "ToolTip": "D:\\ism project\\ISM\\Company\\ViewModels\\TaskViewModel.cs",
               "RelativeToolTip": "Company\\ViewModels\\TaskViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T18:56:34.825Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T18:56:34.825Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 20,
               "Title": "Member.cs",
-              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Models\\Member.cs",
+              "DocumentMoniker": "D:\\ism project\\ISM\\Company.DAL\\Models\\Member.cs",
               "RelativeDocumentMoniker": "Company.DAL\\Models\\Member.cs",
-              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Models\\Member.cs",
+              "ToolTip": "D:\\ism project\\ISM\\Company.DAL\\Models\\Member.cs",
               "RelativeToolTip": "Company.DAL\\Models\\Member.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T09:27:16.662Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T09:27:16.662Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 19,
               "Title": "CompanyDBContext.cs",
-              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Contexts\\CompanyDBContext.cs",
+              "DocumentMoniker": "D:\\ism project\\ISM\\Company.DAL\\Contexts\\CompanyDBContext.cs",
               "RelativeDocumentMoniker": "Company.DAL\\Contexts\\CompanyDBContext.cs",
-              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Contexts\\CompanyDBContext.cs",
+              "ToolTip": "D:\\ism project\\ISM\\Company.DAL\\Contexts\\CompanyDBContext.cs",
               "RelativeToolTip": "Company.DAL\\Contexts\\CompanyDBContext.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T14:48:27.522Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T14:48:27.522Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 18,
               "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\Controllers\\AccountController.cs",
+              "DocumentMoniker": "D:\\ism project\\ISM\\Company\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Company\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\ism project\\ISM\\Company\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Company\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAcwJIAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAcwIcAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-26T08:57:55.781Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "LeaderController.cs",
-              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\Controllers\\LeaderController.cs",
+              "DocumentMoniker": "D:\\ism project\\ISM\\Company\\Controllers\\LeaderController.cs",
               "RelativeDocumentMoniker": "Company\\Controllers\\LeaderController.cs",
-              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\Controllers\\LeaderController.cs",
+              "ToolTip": "D:\\ism project\\ISM\\Company\\Controllers\\LeaderController.cs",
               "RelativeToolTip": "Company\\Controllers\\LeaderController.cs",
-              "ViewState": "AgIAAHoAAAAAAAAAAAAuwM0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAALsAAAAAAAAAAAA6wM4AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-26T09:02:41.579Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 27,
               "Title": "Leader.cs",
-              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Models\\Leader.cs",
+              "DocumentMoniker": "D:\\ism project\\ISM\\Company.DAL\\Models\\Leader.cs",
               "RelativeDocumentMoniker": "Company.DAL\\Models\\Leader.cs",
-              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Models\\Leader.cs",
+              "ToolTip": "D:\\ism project\\ISM\\Company.DAL\\Models\\Leader.cs",
               "RelativeToolTip": "Company.DAL\\Models\\Leader.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -239,11 +318,99 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 4,
+              "Title": "showTeamMembers.cshtml",
+              "DocumentMoniker": "D:\\ism project\\ISM\\Company\\Views\\Member\\showTeamMembers.cshtml",
+              "RelativeDocumentMoniker": "Company\\Views\\Member\\showTeamMembers.cshtml",
+              "ToolTip": "D:\\ism project\\ISM\\Company\\Views\\Member\\showTeamMembers.cshtml",
+              "RelativeToolTip": "Company\\Views\\Member\\showTeamMembers.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T09:29:25.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ShowTasks.cshtml",
+              "DocumentMoniker": "D:\\ism project\\ISM\\Company\\Views\\Member\\ShowTasks.cshtml",
+              "RelativeDocumentMoniker": "Company\\Views\\Member\\ShowTasks.cshtml",
+              "ToolTip": "D:\\ism project\\ISM\\Company\\Views\\Member\\ShowTasks.cshtml",
+              "RelativeToolTip": "Company\\Views\\Member\\ShowTasks.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T17:20:06.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShowTasks.cshtml",
+              "DocumentMoniker": "D:\\ism project\\ISM\\Company\\Views\\Leader\\ShowTasks.cshtml",
+              "RelativeDocumentMoniker": "Company\\Views\\Leader\\ShowTasks.cshtml",
+              "ToolTip": "D:\\ism project\\ISM\\Company\\Views\\Leader\\ShowTasks.cshtml*",
+              "RelativeToolTip": "Company\\Views\\Leader\\ShowTasks.cshtml*",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFwAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T17:19:09.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ism project\\ISM\\Company\\Program.cs",
+              "RelativeDocumentMoniker": "Company\\Program.cs",
+              "ToolTip": "D:\\ism project\\ISM\\Company\\Program.cs",
+              "RelativeToolTip": "Company\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAlwBYAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T14:43:33.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MemberController.cs",
+              "DocumentMoniker": "D:\\ism project\\ISM\\Company\\Controllers\\MemberController.cs",
+              "RelativeDocumentMoniker": "Company\\Controllers\\MemberController.cs",
+              "ToolTip": "D:\\ism project\\ISM\\Company\\Controllers\\MemberController.cs",
+              "RelativeToolTip": "Company\\Controllers\\MemberController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAArwDEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T08:43:19.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MemberReposatory.cs",
+              "DocumentMoniker": "D:\\ism project\\ISM\\Company.BLL\\Reposatories\\MemberReposatory.cs",
+              "RelativeDocumentMoniker": "Company.BLL\\Reposatories\\MemberReposatory.cs",
+              "ToolTip": "D:\\ism project\\ISM\\Company.BLL\\Reposatories\\MemberReposatory.cs",
+              "RelativeToolTip": "Company.BLL\\Reposatories\\MemberReposatory.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T10:53:10.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\ism project\\ISM\\Company.DAL\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Company.DAL\\Models\\User.cs",
+              "ToolTip": "D:\\ism project\\ISM\\Company.DAL\\Models\\User.cs",
+              "RelativeToolTip": "Company.DAL\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T22:29:06.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "projectRepository.cs",
-              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.BLL\\Reposatories\\projectRepository.cs",
+              "DocumentMoniker": "D:\\ism project\\ISM\\Company.BLL\\Reposatories\\projectRepository.cs",
               "RelativeDocumentMoniker": "Company.BLL\\Reposatories\\projectRepository.cs",
-              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.BLL\\Reposatories\\projectRepository.cs",
+              "ToolTip": "D:\\ism project\\ISM\\Company.BLL\\Reposatories\\projectRepository.cs",
               "RelativeToolTip": "Company.BLL\\Reposatories\\projectRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAB7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -251,11 +418,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 26,
               "Title": "TaskRepository.cs",
-              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.BLL\\Reposatories\\TaskRepository.cs",
+              "DocumentMoniker": "D:\\ism project\\ISM\\Company.BLL\\Reposatories\\TaskRepository.cs",
               "RelativeDocumentMoniker": "Company.BLL\\Reposatories\\TaskRepository.cs",
-              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.BLL\\Reposatories\\TaskRepository.cs",
+              "ToolTip": "D:\\ism project\\ISM\\Company.BLL\\Reposatories\\TaskRepository.cs",
               "RelativeToolTip": "Company.BLL\\Reposatories\\TaskRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -263,11 +430,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 24,
               "Title": "IMemberReposatory.cs",
-              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.BLL\\Interfaces\\IMemberReposatory.cs",
+              "DocumentMoniker": "D:\\ism project\\ISM\\Company.BLL\\Interfaces\\IMemberReposatory.cs",
               "RelativeDocumentMoniker": "Company.BLL\\Interfaces\\IMemberReposatory.cs",
-              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.BLL\\Interfaces\\IMemberReposatory.cs",
+              "ToolTip": "D:\\ism project\\ISM\\Company.BLL\\Interfaces\\IMemberReposatory.cs",
               "RelativeToolTip": "Company.BLL\\Interfaces\\IMemberReposatory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -275,23 +442,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "LeaderReposatory.cs",
-              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.BLL\\Reposatories\\LeaderReposatory.cs",
+              "DocumentMoniker": "D:\\ism project\\ISM\\Company.BLL\\Reposatories\\LeaderReposatory.cs",
               "RelativeDocumentMoniker": "Company.BLL\\Reposatories\\LeaderReposatory.cs",
-              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.BLL\\Reposatories\\LeaderReposatory.cs",
+              "ToolTip": "D:\\ism project\\ISM\\Company.BLL\\Reposatories\\LeaderReposatory.cs",
               "RelativeToolTip": "Company.BLL\\Reposatories\\LeaderReposatory.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAgwDIAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwCcAAABwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T21:48:22.985Z"
+              "WhenOpened": "2024-12-26T21:48:22.985Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 14,
               "Title": "ProjectMembers.cs",
-              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\ViewModels\\ProjectMembers.cs",
+              "DocumentMoniker": "D:\\ism project\\ISM\\Company\\ViewModels\\ProjectMembers.cs",
               "RelativeDocumentMoniker": "Company\\ViewModels\\ProjectMembers.cs",
-              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\ViewModels\\ProjectMembers.cs",
+              "ToolTip": "D:\\ism project\\ISM\\Company\\ViewModels\\ProjectMembers.cs",
               "RelativeToolTip": "Company\\ViewModels\\ProjectMembers.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -299,11 +467,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 28,
               "Title": "Project.cs",
-              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Models\\Project.cs",
+              "DocumentMoniker": "D:\\ism project\\ISM\\Company.DAL\\Models\\Project.cs",
               "RelativeDocumentMoniker": "Company.DAL\\Models\\Project.cs",
-              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Models\\Project.cs",
+              "ToolTip": "D:\\ism project\\ISM\\Company.DAL\\Models\\Project.cs",
               "RelativeToolTip": "Company.DAL\\Models\\Project.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -313,9 +481,9 @@
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "RegisterViewModel.cs",
-              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\ViewModels\\RegisterViewModel.cs",
+              "DocumentMoniker": "D:\\ism project\\ISM\\Company\\ViewModels\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "Company\\ViewModels\\RegisterViewModel.cs",
-              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "D:\\ism project\\ISM\\Company\\ViewModels\\RegisterViewModel.cs",
               "RelativeToolTip": "Company\\ViewModels\\RegisterViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -323,47 +491,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "showTeamMembers.cshtml",
-              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\Views\\Member\\showTeamMembers.cshtml",
-              "RelativeDocumentMoniker": "Company\\Views\\Member\\showTeamMembers.cshtml",
-              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\Views\\Member\\showTeamMembers.cshtml",
-              "RelativeToolTip": "Company\\Views\\Member\\showTeamMembers.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-26T09:29:25.922Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 6,
               "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.BLL\\Reposatories\\UnitOfWork.cs",
+              "DocumentMoniker": "D:\\ism project\\ISM\\Company.BLL\\Reposatories\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "Company.BLL\\Reposatories\\UnitOfWork.cs",
-              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.BLL\\Reposatories\\UnitOfWork.cs",
+              "ToolTip": "D:\\ism project\\ISM\\Company.BLL\\Reposatories\\UnitOfWork.cs",
               "RelativeToolTip": "Company.BLL\\Reposatories\\UnitOfWork.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAwwCQAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAA7wB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T10:21:40.572Z"
+              "WhenOpened": "2024-12-25T10:21:40.572Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ShowTasks.cshtml",
-              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\Views\\Member\\ShowTasks.cshtml",
-              "RelativeDocumentMoniker": "Company\\Views\\Member\\ShowTasks.cshtml",
-              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\Views\\Member\\ShowTasks.cshtml",
-              "RelativeToolTip": "Company\\Views\\Member\\ShowTasks.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-26T17:20:06.099Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 31,
               "Title": "20241226165902_leader-member-many-to-many.cs",
-              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Migrations\\20241226165902_leader-member-many-to-many.cs",
+              "DocumentMoniker": "D:\\ism project\\ISM\\Company.DAL\\Migrations\\20241226165902_leader-member-many-to-many.cs",
               "RelativeDocumentMoniker": "Company.DAL\\Migrations\\20241226165902_leader-member-many-to-many.cs",
-              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Migrations\\20241226165902_leader-member-many-to-many.cs",
+              "ToolTip": "D:\\ism project\\ISM\\Company.DAL\\Migrations\\20241226165902_leader-member-many-to-many.cs",
               "RelativeToolTip": "Company.DAL\\Migrations\\20241226165902_leader-member-many-to-many.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -371,11 +516,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 29,
               "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.BLL\\Reposatories\\GenericRepository.cs",
+              "DocumentMoniker": "D:\\ism project\\ISM\\Company.BLL\\Reposatories\\GenericRepository.cs",
               "RelativeDocumentMoniker": "Company.BLL\\Reposatories\\GenericRepository.cs",
-              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.BLL\\Reposatories\\GenericRepository.cs",
+              "ToolTip": "D:\\ism project\\ISM\\Company.BLL\\Reposatories\\GenericRepository.cs",
               "RelativeToolTip": "Company.BLL\\Reposatories\\GenericRepository.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -383,27 +528,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 30,
               "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Models\\BaseEntity.cs",
+              "DocumentMoniker": "D:\\ism project\\ISM\\Company.DAL\\Models\\BaseEntity.cs",
               "RelativeDocumentMoniker": "Company.DAL\\Models\\BaseEntity.cs",
-              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company.DAL\\Models\\BaseEntity.cs",
+              "ToolTip": "D:\\ism project\\ISM\\Company.DAL\\Models\\BaseEntity.cs",
               "RelativeToolTip": "Company.DAL\\Models\\BaseEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-25T20:32:48.903Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ShowTasks.cshtml",
-              "DocumentMoniker": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\Views\\Leader\\ShowTasks.cshtml",
-              "RelativeDocumentMoniker": "Company\\Views\\Leader\\ShowTasks.cshtml",
-              "ToolTip": "C:\\projects\\.NET_visual_studio\\Console_C#\\comp\\ISM\\Company\\Views\\Leader\\ShowTasks.cshtml",
-              "RelativeToolTip": "Company\\Views\\Leader\\ShowTasks.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-25T17:19:09.557Z"
             }
           ]
         }

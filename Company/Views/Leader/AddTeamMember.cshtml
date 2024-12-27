@@ -1,0 +1,42 @@
+﻿@using Company.DAL.Models
+@model string
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" asp-append-version="true" />
+    <link href="~/css/body.css" rel="stylesheet" asp-append-version="true" />
+</head>
+<body>
+   
+    <main>
+        <div class="container d-flex justify-content-center align-items-center vh-100">
+            <form class="w-100 mx-auto py-5 form-body bg-color rounded-3 text-center" asp-action="AddTeamMember">
+                <h2 class="mt-1">Add Member to Project</h2>
+                <div class="mb-3 mt-5 row g-3 align-items-center justify-content-center w-75 m-auto">
+                    <div class="col-3">
+                        <label for="Project Name" class="fw-semibold">Project Name</label>
+                    </div>
+                    <div class="col-9">
+                        <textarea class="form-control mt-2 w-100" id="Project Name" readonly></textarea>
+                    </div>
+                </div>
+                <div class="mb-4 row g-3 align-items-center justify-content-center  w-75 m-auto">
+                    <div class="col-3">
+                        <label for="Email" class="fw-semibold">Member Mail</label>
+                    </div>
+                    <div class="col-9">
+                        <input type="text" name="email" class="form-control mt-2 w-100" id="email" placeholder="Enter member Email">
+                    </div>
+                </div>
+                <input type="submit" class="btn btn-success text-white border-0 rounded-2 py-2 submit-btn">Add Member</input>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,64 +1,89 @@
 ﻿@using Company.DAL.Models
 @model List<TaskMod>
-
+@{
+    Layout = null;
+}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Tasks</title>
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" asp-append-version="true" />
+    <link href="~/css/body.css" rel="stylesheet" asp-append-version="true" />
 </head>
 <body>
     <main>
+        <nav class="navbar navbar-expand-md  fixed-top px-xl-5 text-center" id="navbar-example">
+            <div class="container-fluid container-xl px-xl-5">
+                <a class="navbar-brand text-uppercase fw-bolder ms-4 font-montserrat" href="#">project management</a>
+                <button class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link lh-sm text-black me-4 active fs-14"
+                               asp-action="ShowTasks">manage Tasks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link lh-sm text-black me-4 fs-14"
+                               aria-current="page"
+                               asp-action="showTeamMembers">show Team Members</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <div>
             <div>
                 <h2>Tasks</h2>
             </div>
-
-            <div id="task-table">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Project ID</th>
-                            <th>Id</th>
-                            <th>Name</th>
-                            <th>Description</th>
-                            <th>status</th>
-                            @* <th>Due Date</th> *@
-                            <th>done</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        @if (Model != null || Model.Count() > 0)
+            <section class="container mt-4 bg-color p-4 rounded-2">
+                <div id="task-list" class="row g-3 p-3" style="background-color:#A8ACF3;">
+                    @if (Model != null && Model.Count() > 0)
+                    {
+                        int index = 1;
+                        foreach (var task in Model)
                         {
-                            foreach (var task in Model)
-                            {
-                                <tr>
-                                    <td>@task.project.Id</td>
-                                    <td>@task.Id</td>
-                                    <td>@task.Name</td>
-                                    <td>@task.Description</td>
-                                    <td>@(task.isDone ? "✔️ Completed" : "❌ Pending")</td>
-                                    @* <td>@task.dueTo.ToString("yyyy-MM-dd")</td> *@
-                                    <td>
-                                        <form method="post" asp-action="MarkAsDone">
-                                            <input type="hidden" name="id" value="@task.Id" />
-                                            <button type="submit">
-                                                @(task.isDone ? "Mark as Pending" : "Mark as Done")
-                                            </button>
-                                        </form>
-                                    </td>
-                                </tr>
-                            }
+                            var backgroundColor = index % 2 == 0 ? "#EEEEFF" : "white";
+                            <div class="col-12">
+                                <div class="card p-3 rounded-5 shadow-lg" style="background-color: @backgroundColor;">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <strong>Project ID:</strong> @task.project.Id<br />
+                                            <strong>ID:</strong> @task.Id<br />
+                                            <strong>Name:</strong> @task.Name<br />
+                                            <strong>Description:</strong> @task.Description<br />
+                                            <strong>Status:</strong> @(task.isDone ? "✔️ Completed" : "❌ Pending")
+                                        </div>
+                                        <div class="d-flex flex-column align-items-end">
+                                            <form method="post" asp-action="MarkAsDone" class="mb-2">
+                                                <input type="hidden" name="id" value="@task.Id" />
+                                                <button type="submit" class="btn btn-primary">
+                                                    @(task.isDone ? "Mark as Pending" : "Mark as Done")
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            index++;
                         }
-                        else
-                        {
-                            <tr>
-                                <td colspan="6">No tasks available.</td>
-                            </tr>
-                        }
-                    </tbody>
-                </table>
-            </div>
+                    }
+                    else
+                    {
+                        <div class="col-12">
+                            <p class="text-center">No tasks available.</p>
+                        </div>
+                    }
+                </div>
+            </section>
         </div>
     </main>
 </body>

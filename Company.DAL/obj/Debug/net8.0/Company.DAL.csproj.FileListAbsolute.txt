@@ -42,3 +42,18 @@ C:\projects\.NET_visual_studio\Console_C#\comp\ISM\Company.DAL\obj\Debug\net8.0\
 C:\projects\.NET_visual_studio\Console_C#\comp\ISM\Company.DAL\obj\Debug\net8.0\Company.DAL.pdb
 C:\projects\.NET_visual_studio\Console_C#\comp\ISM\Company.DAL\obj\Debug\net8.0\Company.DAL.genruntimeconfig.cache
 C:\projects\.NET_visual_studio\Console_C#\comp\ISM\Company.DAL\obj\Debug\net8.0\ref\Company.DAL.dll
+D:\ism project\ISM\Company.DAL\bin\Debug\net8.0\Company.DAL.deps.json
+D:\ism project\ISM\Company.DAL\bin\Debug\net8.0\Company.DAL.runtimeconfig.json
+D:\ism project\ISM\Company.DAL\bin\Debug\net8.0\Company.DAL.dll
+D:\ism project\ISM\Company.DAL\bin\Debug\net8.0\Company.DAL.pdb
+D:\ism project\ISM\Company.DAL\obj\Debug\net8.0\Company.DAL.csproj.AssemblyReference.cache
+D:\ism project\ISM\Company.DAL\obj\Debug\net8.0\Company.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\ism project\ISM\Company.DAL\obj\Debug\net8.0\Company.DAL.AssemblyInfoInputs.cache
+D:\ism project\ISM\Company.DAL\obj\Debug\net8.0\Company.DAL.AssemblyInfo.cs
+D:\ism project\ISM\Company.DAL\obj\Debug\net8.0\Company.DAL.csproj.CoreCompileInputs.cache
+D:\ism project\ISM\Company.DAL\obj\Debug\net8.0\Company.DAL.sourcelink.json
+D:\ism project\ISM\Company.DAL\obj\Debug\net8.0\Company.DAL.dll
+D:\ism project\ISM\Company.DAL\obj\Debug\net8.0\refint\Company.DAL.dll
+D:\ism project\ISM\Company.DAL\obj\Debug\net8.0\Company.DAL.pdb
+D:\ism project\ISM\Company.DAL\obj\Debug\net8.0\Company.DAL.genruntimeconfig.cache
+D:\ism project\ISM\Company.DAL\obj\Debug\net8.0\ref\Company.DAL.dll

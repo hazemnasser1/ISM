@@ -120,8 +120,9 @@ namespace Company.PL.Controllers
             var CurrentUser = _httpContextAccessor.HttpContext?.User;
             var userEmail = CurrentUser?.FindFirst(ClaimTypes.Email)?.Value;
             var user = unitOfWork.LeaderReposatory.GetByEmail(userEmail);
-            var members = user.members.ToList();
-            return View(members);
+
+            string projectName = user.Project.Name;
+            return View((object) projectName);
         }
         [HttpPost]
         public IActionResult AddTeamMember(string email)
@@ -196,7 +197,11 @@ namespace Company.PL.Controllers
         [HttpPost]
         public IActionResult UpdateTask(TaskViewModel task)
         {
-            var ourTask = autoMapper.Map<TaskViewModel, TaskMod>(task);
+            var ourTask = unitOfWork.TaskRepository.GetTaskByName(task.Name);
+
+            ourTask.isDone = task.isDone;
+            ourTask.Description = task.Description;
+            ourTask.MemberID = task.MemberID;
             unitOfWork.TaskRepository.Update(ourTask);
             unitOfWork.Complete();
             return RedirectToAction("ShowTasks");

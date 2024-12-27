@@ -1,95 +1,151 @@
 ﻿@using Company.PL.ViewModels
 @model TasksViewModel;
+@{
+    Layout = null;
+}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task Manager</title>
-</head>
-<body>
-    <main>
-        <div class="container">
-            <h2>Task Manager</h2>
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" asp-append-version="true" />
+    <link href="~/css/body.css" rel="stylesheet" asp-append-version="true" />
 
+</head>
+<body >
+    <nav class="navbar navbar-expand-md  fixed-top px-xl-5 text-center" id="navbar-example">
+        <div class="container-fluid container-xl px-xl-5">
+            <a class="navbar-brand text-uppercase fw-bolder ms-4 font-montserrat" href="#">project management</a>
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link lh-sm text-black me-4 active fs-14"
+						   asp-action="ShowTasks">manage Tasks</a>
+					</li>
+                    <li class="nav-item">
+                        <a class="nav-link lh-sm text-black me-4 fs-14"
+                           aria-current="page"
+                           asp-action="ShowTeamMember">show Team Members</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link lh-sm text-black me-4 fs-14"
+                            asp-action="AddTeamMember">add Team Member</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container margin" >
+            <h2>Task Manager</h2>
             <!-- View Tasks Section -->
-            <section id="view-tasks">
-                <h3>View Tasks</h3>
-                <table>
-                    <thead>
-                        <tr> 
-                            <th>Task Name</th>
-                            <th>Description</th>
-                            <th>Assigned To</th>
-                            @* <th>Due Date</th> *@
-                            <th>Status</th>
-                            <th>Delete Task</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <!-- This is where server-side code will inject tasks -->
-                        @if (Model!=null)
+            <section class="container mt-4 bg-color p-4 rounded-2" >
+                <div id="task-list" class="row g-3 p-3" style="background-color:#A8ACF3;">
+                    @if (Model != null && Model.Tasks.Any())
+                    {
+                        int index = 1;
+                        foreach (var task in Model.Tasks)
                         {
-                            foreach (var task in Model.Tasks)
-                            {
-                                <tr>
-                                    <td>@task.Name</td>
-                                    <td>@task.Description</td>
-                                    <td>@task.MemberID</td>
-                                    @* <td>@task.DueTo.ToString("yyyy-MM-dd")</td> *@
-                                    <td>@(task.isDone ? "Done" : "Pending")</td>
-                                    <td>
-                                        <form asp-action="DeleteTask" method="post">
-                                            <input type="hidden" name="TaskName" value="@task.Name" >
-                                            <button type="submit" class="btn btn-danger">Delete</button>
-                                        </form>
-                                    </td>
-                                </tr>
-                            }
+                            var backgroundColor = index % 2 == 0 ? "#EEEEFF" : "white";
+                            <div class="col-12">
+                                <div class="card p-3 rounded-5 shadow-lg" style="background-color: @backgroundColor;">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <strong>ID:</strong> @index<br />
+                                            <strong>Task Name:</strong> @task.Name<br />
+                                            <strong>Assigned To:</strong> @task.MemberID<br />
+                                            <strong>Description:</strong> @task.Description
+                                        </div>
+                                        <div>
+                                            <form asp-action="DeleteTask" method="post">
+                                                <input type="hidden" name="TaskName" value="@task.Name" />
+                                                <button type="submit" class="btn btn-danger">
+                                                    <i class="fa-solid fa-trash" style="color: #ffffff;"></i> Delete
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            index++;
                         }
-                        else
-                        {
-                            <tr>
-                                <td colspan="7">No tasks available.</td>
-                            </tr>
-                        }
-                    </tbody>
-                </table>
-                <button id="add-task-btn" onclick="showAddTaskForm()">Add Task</button>
+                    }
+                    else
+                    {
+                        <div class="col-12">
+                            <p class="text-center">No tasks available.</p>
+                        </div>
+                    }
+                </div>
+                <div class="mt-4 text-center" id="addtaskbutton">
+                    <button onclick="showAddTaskForm()" class="button-56">Add Task</button>
+                </div>
             </section>
+
 
             <!-- Add Task Section -->
             <section id="add-task" style="display: none;">
                 <h3>Add a New Task</h3>
-                <form asp-action="AddTask" method="post" >
-                    <div>
-                        <label for="taskName">Task Name</label>
-                        <input asp-for="task.Name"  id="taskName"  required>
+                <form asp-action="AddTask" method="post">
+                    <div class="mb-4 row g-3 align-items-center">
+                        <div class="col-2">
+                            <label for="taskName" class="fw-semibold col-form-label">Task Name</label>
+                        </div>
+                        <div class="col-10">
+                            <input asp-for="task.Name" id="taskName" required class="form-control mt-2" />
+                        </div>
                     </div>
-                    <div>
-                        <label for="description">Description</label>
-                        <input asp-for="task.Description"  id="description" required>
+                    <div class="mb-4 row g-3 align-items-center">
+                        <div class="col-2">
+                            <label for="description" class="fw-semibold col-form-label">Description</label>
+                        </div>
+                        <div class="col-10">
+                            <input asp-for="task.Description" id="description" required class="form-control mt-2" />
+                        </div>
                     </div>
-                    <div>
-                        <label for="assignedTo">Assigned To</label>
-                        <input asp-for="task.MemberID"  id="assignedTo" required>
+                    <div class="mb-4 row g-3 align-items-center">
+                        <div class="col-2">
+                            <label for="assignedTo" class="fw-semibold col-form-label">Assigned To</label>
+                        </div>
+                        <div class="col-10">
+                            <input asp-for="task.MemberID" id="assignedTo" required class="form-control mt-2" />
+                        </div>
                     </div>
-                    <button type="submit">Add Task</button>
+                    <!-- Buttons for Submit and Cancel -->
+                    <div class="d-flex justify-content-end">
+                        <button type="button" onclick="hideAddTaskForm()" class="button-bad">Cancel</button>
+                        <button type="submit" class="button-56">Add Task</button>
+                    </div>
                 </form>
-                <button onclick="hideAddTaskForm()">Cancel</button>
             </section>
+
         </div>
     </main>
     <script>
         function showAddTaskForm() {
-            document.getElementById('view-tasks').style.display = 'none';
-            document.getElementById('add-task').style.display = 'block';
+            document.getElementById('task-list').style.display = 'none'; // Hide the task list
+            document.getElementById('addtaskbutton').style.display = 'none'; // Hide the task list
+            document.getElementById('add-task').style.display = 'block'; // Show the Add Task form
         }
 
         function hideAddTaskForm() {
-            document.getElementById('add-task').style.display = 'none';
-            document.getElementById('view-tasks').style.display = 'block';
+            document.getElementById('add-task').style.display = 'none'; // Hide the Add Task form
+            document.getElementById('addtaskbutton').style.display = 'block'; // Hide the Add Task form
+            document.getElementById('task-list').style.display = 'block'; // Show the task list
         }
+
     </script>
 </body>
 </html>`

@@ -1,0 +1,79 @@
+﻿@using Company.DAL.Models
+@model List<Member>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Team Members</title>
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" asp-append-version="true" />
+    <link href="~/css/body.css" rel="stylesheet" asp-append-version="true" />
+</head>
+<body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-md  fixed-top px-xl-5 text-center" id="navbar-example">
+        <div class="container-fluid container-xl px-xl-5">
+            <a class="navbar-brand text-uppercase fw-bolder ms-4 font-montserrat" href="#">project management</a>
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link lh-sm text-black me-4 fs-14"
+                           asp-action="ShowTasks">manage Tasks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link lh-sm text-black me-4 active fs-14"
+                           aria-current="page"
+                           asp-action="ShowTeamMember">show Team Members</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link lh-sm text-black me-4  fs-14"
+                           asp-action="AddTeamMember">add Team Member</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- show Team Members -->
+    <main>
+        <div>
+            <h2>Team Members for this Project</h2>
+            <!-- Team Members Table -->
+            <div id="team-members-table">
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body">
+                        @foreach (var member in Model)
+                        {
+                            <tr data-project="@member.Name.ToLower()">
+                                <td>@member.Id</td>
+                                <td>@member.Name</td>
+                                <td>@member.Email</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -45,3 +45,19 @@ C:\projects\.NET_visual_studio\Console_C#\comp\ISM\Company.BLL\obj\Debug\net8.0\
 C:\projects\.NET_visual_studio\Console_C#\comp\ISM\Company.BLL\obj\Debug\net8.0\refint\Company.BLL.dll
 C:\projects\.NET_visual_studio\Console_C#\comp\ISM\Company.BLL\obj\Debug\net8.0\Company.BLL.pdb
 C:\projects\.NET_visual_studio\Console_C#\comp\ISM\Company.BLL\obj\Debug\net8.0\ref\Company.BLL.dll
+D:\ism project\ISM\Company.BLL\bin\Debug\net8.0\Company.BLL.deps.json
+D:\ism project\ISM\Company.BLL\bin\Debug\net8.0\Company.BLL.dll
+D:\ism project\ISM\Company.BLL\bin\Debug\net8.0\Company.BLL.pdb
+D:\ism project\ISM\Company.BLL\bin\Debug\net8.0\Company.DAL.dll
+D:\ism project\ISM\Company.BLL\bin\Debug\net8.0\Company.DAL.pdb
+D:\ism project\ISM\Company.BLL\obj\Debug\net8.0\Company.BLL.csproj.AssemblyReference.cache
+D:\ism project\ISM\Company.BLL\obj\Debug\net8.0\Company.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\ism project\ISM\Company.BLL\obj\Debug\net8.0\Company.BLL.AssemblyInfoInputs.cache
+D:\ism project\ISM\Company.BLL\obj\Debug\net8.0\Company.BLL.AssemblyInfo.cs
+D:\ism project\ISM\Company.BLL\obj\Debug\net8.0\Company.BLL.csproj.CoreCompileInputs.cache
+D:\ism project\ISM\Company.BLL\obj\Debug\net8.0\Company.BLL.sourcelink.json
+D:\ism project\ISM\Company.BLL\obj\Debug\net8.0\Company..E6BDEF00.Up2Date
+D:\ism project\ISM\Company.BLL\obj\Debug\net8.0\Company.BLL.dll
+D:\ism project\ISM\Company.BLL\obj\Debug\net8.0\refint\Company.BLL.dll
+D:\ism project\ISM\Company.BLL\obj\Debug\net8.0\Company.BLL.pdb
+D:\ism project\ISM\Company.BLL\obj\Debug\net8.0\ref\Company.BLL.dll

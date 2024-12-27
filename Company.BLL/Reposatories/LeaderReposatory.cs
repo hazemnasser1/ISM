@@ -37,7 +37,7 @@ namespace Company.BLL.Reposatories
 
         public Leader GetByEmail(string email)
         {
-            return dBContext.leaders.Where(m => m.Email == email).Include(l => l.members).FirstOrDefault();
+            return dBContext.leaders.Where(m => m.Email == email).Include(l => l.members).Include(b => b.Project).FirstOrDefault();
         }
 
         public List<Member>? showteam(int projectID)

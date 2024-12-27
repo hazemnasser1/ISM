@@ -20,7 +20,7 @@ namespace Company
             builder.Services.AddScoped(typeof(IGenaricReposatory<>), typeof(GenericRepository<>));
 			builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
             builder.Services.AddDbContext<CompanyDBContext>(options =>
-                options.UseSqlServer("Server=.;database=companyDB;trusted_connection=true;encrypt=false")
+                options.UseSqlServer("Server=localhost\\MSSQLSERVER01;database=companyDB;trusted_connection=true;encrypt=false")
             );
 			builder.Services.AddIdentity<User, IdentityRole>(config =>
 			{

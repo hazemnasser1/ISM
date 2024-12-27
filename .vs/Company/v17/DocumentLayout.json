@@ -3,52 +3,80 @@
   "WorkspaceRootPath": "D:\\ism project\\ISM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\views\\leader\\updatetask.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\views\\leader\\updatetask.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|d:\\ism project\\ism\\company.bll\\reposatories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\reposatories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\controllers\\leadercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\controllers\\leadercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\wwwroot\\css\\body.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\wwwroot\\css\\body.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\views\\leader\\showtasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\views\\leader\\showtasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\views\\member\\showteammembers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\views\\member\\showteammembers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\views\\member\\showtasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\views\\member\\showtasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\views\\leader\\showteammember.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\views\\leader\\showteammember.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\views\\leader\\addteammember.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\views\\leader\\addteammember.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|d:\\ism project\\ism\\company.bll\\reposatories\\leaderreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\reposatories\\leaderreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|d:\\ism project\\ism\\company.bll\\reposatories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\reposatories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|d:\\ism project\\ism\\company.bll\\reposatories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\reposatories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|d:\\ism project\\ism\\company.bll\\reposatories\\memberreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\reposatories\\memberreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|d:\\ism project\\ism\\company.bll\\reposatories\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\reposatories\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\views\\leader\\updatetask.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\views\\leader\\updatetask.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\views\\leader\\addteammember.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\views\\leader\\addteammember.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\controllers\\leadercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\controllers\\leadercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\views\\leader\\showteammember.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\views\\leader\\showteammember.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\views\\leader\\showtasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\views\\leader\\showtasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\wwwroot\\css\\body.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\wwwroot\\css\\body.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\views\\member\\showtasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\views\\member\\showtasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\wwwroot\\css\\showteammember.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\wwwroot\\css\\showteammember.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|d:\\ism project\\ism\\company.bll\\reposatories\\leaderreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\reposatories\\leaderreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -63,20 +91,8 @@
       "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\viewmodels\\projectmembers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\wwwroot\\css\\signup.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\wwwroot\\css\\signup.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|d:\\ism project\\ism\\company\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|d:\\ism project\\ism\\company.dal\\contexts\\companydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -95,20 +111,8 @@
       "RelativeMoniker": "D:0:0:{7AE2D1F8-ECCB-4827-8505-990BE3E12988}|Company\\Company.PL.csproj|solutionrelative:company\\viewmodels\\taskviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|d:\\ism project\\ism\\company.bll\\reposatories\\memberreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\reposatories\\memberreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|d:\\ism project\\ism\\company.bll\\interfaces\\imemberreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\interfaces\\imemberreposatory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|d:\\ism project\\ism\\company.bll\\reposatories\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\reposatories\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|d:\\ism project\\ism\\company.bll\\reposatories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D8EBF67-E195-4180-9293-3081A7348BCA}|Company.BLL\\Company.BLL.csproj|solutionrelative:company.bll\\reposatories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1EBDF0C2-4862-48CB-8A3A-689B0670145D}|Company.DAL\\Company.DAL.csproj|d:\\ism project\\ism\\company.dal\\models\\leader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -138,37 +142,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 16,
+              "Title": "showTeamMember.css",
+              "DocumentMoniker": "D:\\ism project\\ISM\\Company\\wwwroot\\css\\showTeamMember.css",
+              "RelativeDocumentMoniker": "Company\\wwwroot\\css\\showTeamMember.css",
+              "ToolTip": "D:\\ism project\\ISM\\Company\\wwwroot\\css\\showTeamMember.css",
+              "RelativeToolTip": "Company\\wwwroot\\css\\showTeamMember.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-27T14:05:09.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "UpdateTask.cshtml",
               "DocumentMoniker": "D:\\ism project\\ISM\\Company\\Views\\Leader\\UpdateTask.cshtml",
               "RelativeDocumentMoniker": "Company\\Views\\Leader\\UpdateTask.cshtml",
               "ToolTip": "D:\\ism project\\ISM\\Company\\Views\\Leader\\UpdateTask.cshtml",
               "RelativeToolTip": "Company\\Views\\Leader\\UpdateTask.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADEAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-27T01:15:23.521Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "ShowTeamMember.cshtml",
               "DocumentMoniker": "D:\\ism project\\ISM\\Company\\Views\\Leader\\ShowTeamMember.cshtml",
               "RelativeDocumentMoniker": "Company\\Views\\Leader\\ShowTeamMember.cshtml",
               "ToolTip": "D:\\ism project\\ISM\\Company\\Views\\Leader\\ShowTeamMember.cshtml",
               "RelativeToolTip": "Company\\Views\\Leader\\ShowTeamMember.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADMAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-27T00:38:41.503Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "login.css",
               "DocumentMoniker": "D:\\ism project\\ISM\\Company\\wwwroot\\css\\login.css",
               "RelativeDocumentMoniker": "Company\\wwwroot\\css\\login.css",
@@ -176,12 +193,11 @@
               "RelativeToolTip": "Company\\wwwroot\\css\\login.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-27T00:30:42.359Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-27T00:30:42.359Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "signUp.css",
               "DocumentMoniker": "D:\\ism project\\ISM\\Company\\wwwroot\\css\\signUp.css",
               "RelativeDocumentMoniker": "Company\\wwwroot\\css\\signUp.css",
@@ -193,19 +209,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 3,
               "Title": "Register.cshtml",
               "DocumentMoniker": "D:\\ism project\\ISM\\Company\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Company\\Views\\Account\\Register.cshtml",
               "ToolTip": "D:\\ism project\\ISM\\Company\\Views\\Account\\Register.cshtml",
               "RelativeToolTip": "Company\\Views\\Account\\Register.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-27T00:03:00.892Z"
+              "WhenOpened": "2024-12-27T00:03:00.892Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 4,
               "Title": "LogIn.cshtml",
               "DocumentMoniker": "D:\\ism project\\ISM\\Company\\Views\\Account\\LogIn.cshtml",
               "RelativeDocumentMoniker": "Company\\Views\\Account\\LogIn.cshtml",
@@ -218,33 +235,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 14,
               "Title": "body.css",
               "DocumentMoniker": "D:\\ism project\\ISM\\Company\\wwwroot\\css\\body.css",
               "RelativeDocumentMoniker": "Company\\wwwroot\\css\\body.css",
               "ToolTip": "D:\\ism project\\ISM\\Company\\wwwroot\\css\\body.css",
               "RelativeToolTip": "Company\\wwwroot\\css\\body.css",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-12-26T23:52:00.422Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "AddTeamMember.cshtml",
               "DocumentMoniker": "D:\\ism project\\ISM\\Company\\Views\\Leader\\AddTeamMember.cshtml",
               "RelativeDocumentMoniker": "Company\\Views\\Leader\\AddTeamMember.cshtml",
               "ToolTip": "D:\\ism project\\ISM\\Company\\Views\\Leader\\AddTeamMember.cshtml",
               "RelativeToolTip": "Company\\Views\\Leader\\AddTeamMember.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACQAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAuwDUAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-26T23:42:27.771Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "TaskViewModel.cs",
               "DocumentMoniker": "D:\\ism project\\ISM\\Company\\ViewModels\\TaskViewModel.cs",
               "RelativeDocumentMoniker": "Company\\ViewModels\\TaskViewModel.cs",
@@ -256,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "Member.cs",
               "DocumentMoniker": "D:\\ism project\\ISM\\Company.DAL\\Models\\Member.cs",
               "RelativeDocumentMoniker": "Company.DAL\\Models\\Member.cs",
@@ -268,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "CompanyDBContext.cs",
               "DocumentMoniker": "D:\\ism project\\ISM\\Company.DAL\\Contexts\\CompanyDBContext.cs",
               "RelativeDocumentMoniker": "Company.DAL\\Contexts\\CompanyDBContext.cs",
@@ -280,33 +297,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 2,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\ism project\\ISM\\Company\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Company\\Controllers\\AccountController.cs",
               "ToolTip": "D:\\ism project\\ISM\\Company\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Company\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAcwIcAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAA+wCgAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-26T08:57:55.781Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "LeaderController.cs",
               "DocumentMoniker": "D:\\ism project\\ISM\\Company\\Controllers\\LeaderController.cs",
               "RelativeDocumentMoniker": "Company\\Controllers\\LeaderController.cs",
               "ToolTip": "D:\\ism project\\ISM\\Company\\Controllers\\LeaderController.cs",
               "RelativeToolTip": "Company\\Controllers\\LeaderController.cs",
-              "ViewState": "AgIAALwAAAAAAAAAAAAmwM4AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAawFgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-26T09:02:41.579Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "Leader.cs",
               "DocumentMoniker": "D:\\ism project\\ISM\\Company.DAL\\Models\\Leader.cs",
               "RelativeDocumentMoniker": "Company.DAL\\Models\\Leader.cs",
@@ -318,39 +335,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "showTeamMembers.cshtml",
               "DocumentMoniker": "D:\\ism project\\ISM\\Company\\Views\\Member\\showTeamMembers.cshtml",
               "RelativeDocumentMoniker": "Company\\Views\\Member\\showTeamMembers.cshtml",
               "ToolTip": "D:\\ism project\\ISM\\Company\\Views\\Member\\showTeamMembers.cshtml",
               "RelativeToolTip": "Company\\Views\\Member\\showTeamMembers.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADwAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-26T09:29:25.922Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 15,
               "Title": "ShowTasks.cshtml",
               "DocumentMoniker": "D:\\ism project\\ISM\\Company\\Views\\Member\\ShowTasks.cshtml",
               "RelativeDocumentMoniker": "Company\\Views\\Member\\ShowTasks.cshtml",
               "ToolTip": "D:\\ism project\\ISM\\Company\\Views\\Member\\ShowTasks.cshtml",
               "RelativeToolTip": "Company\\Views\\Member\\ShowTasks.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACIAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAACIAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-26T17:20:06.099Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "ShowTasks.cshtml",
               "DocumentMoniker": "D:\\ism project\\ISM\\Company\\Views\\Leader\\ShowTasks.cshtml",
               "RelativeDocumentMoniker": "Company\\Views\\Leader\\ShowTasks.cshtml",
               "ToolTip": "D:\\ism project\\ISM\\Company\\Views\\Leader\\ShowTasks.cshtml",
               "RelativeToolTip": "Company\\Views\\Leader\\ShowTasks.cshtml",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFwAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAqwEwAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-25T17:19:09.557Z",
               "EditorCaption": ""
@@ -363,38 +380,40 @@
               "RelativeDocumentMoniker": "Company\\Program.cs",
               "ToolTip": "D:\\ism project\\ISM\\Company\\Program.cs",
               "RelativeToolTip": "Company\\Program.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAlwBYAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAtwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T14:43:33.695Z"
+              "WhenOpened": "2024-12-26T14:43:33.695Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "MemberController.cs",
               "DocumentMoniker": "D:\\ism project\\ISM\\Company\\Controllers\\MemberController.cs",
               "RelativeDocumentMoniker": "Company\\Controllers\\MemberController.cs",
               "ToolTip": "D:\\ism project\\ISM\\Company\\Controllers\\MemberController.cs",
               "RelativeToolTip": "Company\\Controllers\\MemberController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAArwDEAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAqwDIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-26T08:43:19.317Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 7,
               "Title": "MemberReposatory.cs",
               "DocumentMoniker": "D:\\ism project\\ISM\\Company.BLL\\Reposatories\\MemberReposatory.cs",
               "RelativeDocumentMoniker": "Company.BLL\\Reposatories\\MemberReposatory.cs",
               "ToolTip": "D:\\ism project\\ISM\\Company.BLL\\Reposatories\\MemberReposatory.cs",
               "RelativeToolTip": "Company.BLL\\Reposatories\\MemberReposatory.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCQAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T10:53:10.441Z"
+              "WhenOpened": "2024-12-26T10:53:10.441Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\ism project\\ISM\\Company.DAL\\Models\\User.cs",
               "RelativeDocumentMoniker": "Company.DAL\\Models\\User.cs",
@@ -406,7 +425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 8,
               "Title": "projectRepository.cs",
               "DocumentMoniker": "D:\\ism project\\ISM\\Company.BLL\\Reposatories\\projectRepository.cs",
               "RelativeDocumentMoniker": "Company.BLL\\Reposatories\\projectRepository.cs",
@@ -414,11 +433,12 @@
               "RelativeToolTip": "Company.BLL\\Reposatories\\projectRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAB7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T16:31:47.891Z"
+              "WhenOpened": "2024-12-25T16:31:47.891Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 6,
               "Title": "TaskRepository.cs",
               "DocumentMoniker": "D:\\ism project\\ISM\\Company.BLL\\Reposatories\\TaskRepository.cs",
               "RelativeDocumentMoniker": "Company.BLL\\Reposatories\\TaskRepository.cs",
@@ -426,11 +446,12 @@
               "RelativeToolTip": "Company.BLL\\Reposatories\\TaskRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T10:30:21.447Z"
+              "WhenOpened": "2024-12-25T10:30:21.447Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "IMemberReposatory.cs",
               "DocumentMoniker": "D:\\ism project\\ISM\\Company.BLL\\Interfaces\\IMemberReposatory.cs",
               "RelativeDocumentMoniker": "Company.BLL\\Interfaces\\IMemberReposatory.cs",
@@ -442,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "LeaderReposatory.cs",
               "DocumentMoniker": "D:\\ism project\\ISM\\Company.BLL\\Reposatories\\LeaderReposatory.cs",
               "RelativeDocumentMoniker": "Company.BLL\\Reposatories\\LeaderReposatory.cs",
@@ -450,12 +471,11 @@
               "RelativeToolTip": "Company.BLL\\Reposatories\\LeaderReposatory.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAkwCcAAABwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T21:48:22.985Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T21:48:22.985Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 21,
               "Title": "ProjectMembers.cs",
               "DocumentMoniker": "D:\\ism project\\ISM\\Company\\ViewModels\\ProjectMembers.cs",
               "RelativeDocumentMoniker": "Company\\ViewModels\\ProjectMembers.cs",
@@ -467,7 +487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Project.cs",
               "DocumentMoniker": "D:\\ism project\\ISM\\Company.DAL\\Models\\Project.cs",
               "RelativeDocumentMoniker": "Company.DAL\\Models\\Project.cs",
@@ -479,7 +499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "RegisterViewModel.cs",
               "DocumentMoniker": "D:\\ism project\\ISM\\Company\\ViewModels\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "Company\\ViewModels\\RegisterViewModel.cs",
@@ -491,20 +511,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "D:\\ism project\\ISM\\Company.BLL\\Reposatories\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "Company.BLL\\Reposatories\\UnitOfWork.cs",
               "ToolTip": "D:\\ism project\\ISM\\Company.BLL\\Reposatories\\UnitOfWork.cs",
               "RelativeToolTip": "Company.BLL\\Reposatories\\UnitOfWork.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAuwCYAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-25T10:21:40.572Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "20241226165902_leader-member-many-to-many.cs",
               "DocumentMoniker": "D:\\ism project\\ISM\\Company.DAL\\Migrations\\20241226165902_leader-member-many-to-many.cs",
               "RelativeDocumentMoniker": "Company.DAL\\Migrations\\20241226165902_leader-member-many-to-many.cs",
@@ -516,7 +536,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "D:\\ism project\\ISM\\Company.BLL\\Reposatories\\GenericRepository.cs",
               "RelativeDocumentMoniker": "Company.BLL\\Reposatories\\GenericRepository.cs",
@@ -528,7 +548,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "D:\\ism project\\ISM\\Company.DAL\\Models\\BaseEntity.cs",
               "RelativeDocumentMoniker": "Company.DAL\\Models\\BaseEntity.cs",

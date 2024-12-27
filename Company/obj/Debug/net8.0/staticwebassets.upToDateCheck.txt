@@ -1,6 +1,7 @@
 wwwroot\css\body.css
 wwwroot\css\bootstrap.min.css
 wwwroot\css\login.css
+wwwroot\css\showTeamMember.css
 wwwroot\css\signUp.css
 wwwroot\css\site.css
 wwwroot\favicon.ico

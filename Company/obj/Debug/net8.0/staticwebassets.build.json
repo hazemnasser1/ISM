@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SKcXdvUHzH2QniUtCNGBRYCPZH40tdsaJ2e+wXzrbZ4=",
+  "Hash": "Lt6hJCX8Myg/+hM0VRATrFw+kqAagFazwA2D85s51xk=",
   "Source": "Company.PL",
   "BasePath": "_content/Company.PL",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "2vmxx5q8ij",
-      "Integrity": "Anm9/LmgK2/BeHbAYLQmQ7sUk6PluuCEQXK/7Pan5c0=",
+      "Fingerprint": "eftqzkygr7",
+      "Integrity": "hvVLUs5HycOAkgg0T7CjfWUzJie2vCDkzVrU0Z1hvZ0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\body.css"
@@ -78,6 +78,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\login.css"
+    },
+    {
+      "Identity": "D:\\ism project\\ISM\\Company\\wwwroot\\css\\showTeamMember.css",
+      "SourceId": "Company.PL",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ism project\\ISM\\Company\\wwwroot\\",
+      "BasePath": "_content/Company.PL",
+      "RelativePath": "css/showTeamMember#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sht21kn7mk",
+      "Integrity": "MF0bGHK+xay56j+ZStVw+Vlwu5wXGMGTrWEc4NmAn0Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\showTeamMember.css"
     },
     {
       "Identity": "D:\\ism project\\ISM\\Company\\wwwroot\\css\\signUp.css",
@@ -1363,51 +1384,6 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/body.2vmxx5q8ij.css",
-      "AssetFile": "D:\\ism project\\ISM\\Company\\wwwroot\\css\\body.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2942"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Anm9/LmgK2/BeHbAYLQmQ7sUk6PluuCEQXK/7Pan5c0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 27 Dec 2024 13:15:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "2vmxx5q8ij"
-        },
-        {
-          "Name": "label",
-          "Value": "css/body.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Anm9/LmgK2/BeHbAYLQmQ7sUk6PluuCEQXK/7Pan5c0="
-        }
-      ]
-    },
-    {
       "Route": "css/body.css",
       "AssetFile": "D:\\ism project\\ISM\\Company\\wwwroot\\css\\body.css",
       "Selectors": [],
@@ -1418,7 +1394,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2942"
+          "Value": "2992"
         },
         {
           "Name": "Content-Type",
@@ -1426,11 +1402,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Anm9/LmgK2/BeHbAYLQmQ7sUk6PluuCEQXK/7Pan5c0=\""
+          "Value": "\"hvVLUs5HycOAkgg0T7CjfWUzJie2vCDkzVrU0Z1hvZ0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 27 Dec 2024 13:15:00 GMT"
+          "Value": "Fri, 27 Dec 2024 14:14:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1440,7 +1416,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Anm9/LmgK2/BeHbAYLQmQ7sUk6PluuCEQXK/7Pan5c0="
+          "Value": "sha256-hvVLUs5HycOAkgg0T7CjfWUzJie2vCDkzVrU0Z1hvZ0="
+        }
+      ]
+    },
+    {
+      "Route": "css/body.eftqzkygr7.css",
+      "AssetFile": "D:\\ism project\\ISM\\Company\\wwwroot\\css\\body.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2992"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hvVLUs5HycOAkgg0T7CjfWUzJie2vCDkzVrU0Z1hvZ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Dec 2024 14:14:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eftqzkygr7"
+        },
+        {
+          "Name": "label",
+          "Value": "css/body.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hvVLUs5HycOAkgg0T7CjfWUzJie2vCDkzVrU0Z1hvZ0="
         }
       ]
     },
@@ -1605,6 +1626,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-n+Kt+lV5aynCRGGCViseNwDcJm8GLzQzHFB8CouJ6DA="
+        }
+      ]
+    },
+    {
+      "Route": "css/showTeamMember.css",
+      "AssetFile": "D:\\ism project\\ISM\\Company\\wwwroot\\css\\showTeamMember.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2012"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MF0bGHK+xay56j+ZStVw+Vlwu5wXGMGTrWEc4NmAn0Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Dec 2024 14:09:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MF0bGHK+xay56j+ZStVw+Vlwu5wXGMGTrWEc4NmAn0Q="
+        }
+      ]
+    },
+    {
+      "Route": "css/showTeamMember.sht21kn7mk.css",
+      "AssetFile": "D:\\ism project\\ISM\\Company\\wwwroot\\css\\showTeamMember.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2012"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MF0bGHK+xay56j+ZStVw+Vlwu5wXGMGTrWEc4NmAn0Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Dec 2024 14:09:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sht21kn7mk"
+        },
+        {
+          "Name": "label",
+          "Value": "css/showTeamMember.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MF0bGHK+xay56j+ZStVw+Vlwu5wXGMGTrWEc4NmAn0Q="
         }
       ]
     },

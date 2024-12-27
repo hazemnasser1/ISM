@@ -11,64 +11,64 @@
     <title>Project Team Members</title>
     <link href="~/css/bootstrap.min.css" rel="stylesheet" asp-append-version="true" />
     <link href="~/css/body.css" rel="stylesheet" asp-append-version="true" />
+    <link href="~/css/showTeamMember.css" rel="stylesheet" asp-append-version="true" />
 </head>
 <body>
+	<nav class="navbar navbar-expand-md  fixed-top px-xl-5 text-center" id="navbar-example">
+		<div class="container-fluid container-xl px-xl-5">
+			<a class="navbar-brand text-uppercase fw-bolder ms-4 font-montserrat" href="#">project management</a>
+			<button class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link lh-sm text-black me-4 fs-14"
+						   asp-action="ShowTasks">Show Tasks</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link lh-sm text-black me-4 active fs-14"
+						   aria-current="page"
+						   asp-action="showTeamMembers">show Team Members</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
     <main>
-        <nav class="navbar navbar-expand-md  fixed-top px-xl-5 text-center" id="navbar-example">
-            <div class="container-fluid container-xl px-xl-5">
-                <a class="navbar-brand text-uppercase fw-bolder ms-4 font-montserrat" href="#">project management</a>
-                <button class="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent"
-                        aria-controls="navbarSupportedContent"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link lh-sm text-black me-4 fs-14"
-                               asp-action="ShowTasks">manage Tasks</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link lh-sm text-black me-4 active fs-14"
-                               aria-current="page"
-                               asp-action="showTeamMembers">show Team Members</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
         <div>
             <h2>Team Members for this Project</h2>
-            <!-- Team Members Table -->
-            <div id="team-members-table">
-                <table border="1">
-                    <thead>
-                        <tr>
-                            <th>Id</th>
-                            <th>Name</th>
-                            <th>Email</th>
-                        </tr>
-                    </thead>
-                    <tbody id="table-body">
-                        @foreach (var member in Model)
-                        {
-                            <tr data-project="@member.Name.ToLower()">
-                            @foreach(var item in member.members)
+            <!-- Team Members Container with Background Color -->
+            <div id="team-members-wrapper">
+                <div id="team-members-container">
+                    @foreach (var member in Model)
+                    {
+                        <div class="team-member row" data-project="@member.Name.ToLower()">
+                            @foreach (var item in member.members)
                             {
-                                <td>@item.Id</td>
-                                <td>@item.Name</td>
-                                <td>@item.Email</td>
+                                 <div class="col-9"> 
+                                     <img src="https://randomuser.me/api/portraits/men/@(item.Id % 100).jpg" 
+                                          alt="@item.Name" 
+                                          class="member-pic"> 
+                                 </div> 
+                                <div class="member-info col-3">
+                                    <h3>@item.Name</h3>
+                                    <p>ID: @item.Id</p>
+                                    <p>Email: @item.Email</p>
+                                </div>
                             }
-                            </tr>
-                        }
-                    </tbody>
-                </table>
+                        </div>
+                    }
+                </div>
             </div>
         </div>
     </main>
+
 </body>
 </html>

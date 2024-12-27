@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\css\\login.css"
     },
     {
+      "Id": "D:\\ism project\\ISM\\Company\\wwwroot\\css\\showTeamMember.css",
+      "PackagePath": "staticwebassets\\css\\showTeamMember.css"
+    },
+    {
       "Id": "D:\\ism project\\ISM\\Company\\wwwroot\\css\\signUp.css",
       "PackagePath": "staticwebassets\\css\\signUp.css"
     },

@@ -13,11 +13,44 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-md  fixed-top px-xl-5 text-center" id="navbar-example">
+        <div class="container-fluid container-xl px-xl-5">
+            <a class="navbar-brand text-uppercase fw-bolder ms-4 font-montserrat" href="#">project management</a>
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link lh-sm text-black me-4 fs-14"
+                           asp-action="ShowTasks">manage Tasks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link lh-sm text-black me-4 fs-14"
+                           aria-current="page"
+                           asp-action="ShowTeamMember">show Team Members</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link lh-sm text-black me-4  fs-14"
+                           asp-action="AddTeamMember">add Team Member</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
     <h2>Update Task</h2>
 
-    <section id="update-task">
+    <section id="update-task" class="margin container bg-color pb-5 pt-5 shadow-lg rounded-4">
         <h3>Update Task</h3>
-        <form id="updateTaskForm" asp-action="UpdateTask" method="post">
+        <form id="updateTaskForm" asp-action="UpdateTask" method="post" >
+
             <div class="mb-4 row g-3 align-items-center">
                 <div class="col-2">
                     <label for="Name" class="fw-semibold col-form-label">Name</label>
@@ -33,7 +66,7 @@
                     <label for="description" class="fw-semibold col-form-label">Description</label>
                 </div>
                 <div class="col-10">
-                    <input id="description" name="description" class="form-control mt-2" placeholder="@Model.Description" value="@Model.Description" required />
+                    <input id="description" asp-for="Description" class="form-control mt-2" placeholder="@Model.Description" value="@Model.Description" required />
                 </div>
                 <span id="DescriptionError" class="text-danger"></span>
             </div>
@@ -53,7 +86,7 @@
                     <label for="assignedTo" class="fw-semibold col-form-label">Assigned To</label>
                 </div>
                 <div class="col-10">
-                    <input id="assignedTo" name="assignedTo" class="form-control mt-2" placeholder="@Model.MemberID" value="@Model.MemberID" required />
+                    <input asp-for="MemberID" id="assignedTo" class="form-control mt-2" placeholder="@Model.MemberID" value="@Model.MemberID" required />
                 </div>
                 <span id="AssignedToError" class="text-danger"></span>
             </div>

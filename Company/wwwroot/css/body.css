@@ -4,7 +4,9 @@
 nav .nav-link.active {
     position: relative;
 }
-
+.bg-color {
+    background-color: #A8ACF3;
+}
 nav .nav-link.active::after {
     content: "";
     position: absolute;
@@ -147,3 +149,4 @@ nav {
         padding: 0 40px;
     }
 }
+

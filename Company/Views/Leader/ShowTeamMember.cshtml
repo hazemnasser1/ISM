@@ -11,6 +11,7 @@
     <title>Project Team Members</title>
     <link href="~/css/bootstrap.min.css" rel="stylesheet" asp-append-version="true" />
     <link href="~/css/body.css" rel="stylesheet" asp-append-version="true" />
+    <link href="~/css/showTeamMember.css" rel="stylesheet" asp-append-version="true" />
 </head>
 <body>
     <!-- nav bar -->
@@ -51,27 +52,25 @@
     <main>
         <div>
             <h2>Team Members for this Project</h2>
-            <!-- Team Members Table -->
-            <div id="team-members-table">
-                <table border="1">
-                    <thead>
-                        <tr>
-                            <th>Id</th>
-                            <th>Name</th>
-                            <th>Email</th>
-                        </tr>
-                    </thead>
-                    <tbody id="table-body">
-                        @foreach (var member in Model)
-                        {
-                            <tr data-project="@member.Name.ToLower()">
-                                <td>@member.Id</td>
-                                <td>@member.Name</td>
-                                <td>@member.Email</td>
-                            </tr>
-                        }
-                    </tbody>
-                </table>
+            <!-- Team Members Container with Background Color -->
+            <div id="team-members-wrapper">
+                <div id="team-members-container">
+                    @foreach (var member in Model)
+                    {
+                        <div class="team-member row">
+                            <div class="col-9">
+                                <img src="https://randomuser.me/api/portraits/men/@(member.Id % 100).jpg"
+                                     alt="@member.Name"
+                                     class="member-pic">
+                            </div>
+                            <div class="member-info col-3">
+                                <h3>@member.Name</h3>
+                                <p>ID: @member.Id</p>
+                                <p>Email: @member.Email</p>
+                            </div>
+                        </div>
+                    }
+                </div>
             </div>
         </div>
     </main>

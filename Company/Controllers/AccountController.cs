@@ -47,10 +47,11 @@ namespace Company.PL.Controllers
 					var newUser = autoMapper.Map<RegisterViewModel, User>(registerViewModel);
 					newUser.UserName = registerViewModel.FirstName + "_" + registerViewModel.LastName;
 					var result = await userManager.CreateAsync(newUser, registerViewModel.Password);
-					await userManager.AddToRoleAsync(newUser, registerViewModel.Role);
                     
                     if (result.Succeeded)
 					{
+                        await userManager.AddToRoleAsync(newUser, registerViewModel.Role);
+
 
                         if (registerViewModel.Role == "Leader")
 						{

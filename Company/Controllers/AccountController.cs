@@ -125,7 +125,7 @@ namespace Company.PL.Controllers
 			return View(BadRequest());
 		}
 		[HttpGet]
-		public IActionResult SigOut()
+		public IActionResult SignOut()
 		{
 			signInManager.SignOutAsync();
 			return View("LogIn");
